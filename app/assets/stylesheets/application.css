@@ -17,7 +17,6 @@
   position: relative;
 }
 
-
 .bg:before{
   content: '';
   top: 0;
@@ -43,5 +42,9 @@
 }
 
 .about {
-  height: 800px;
+  color: rgb(92, 91, 91);
+  text-align: center;
+  margin-top: 100px;
+  height: 400px;
+  font-family: "Optima", sans-serif;
 }
