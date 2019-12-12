@@ -6,7 +6,7 @@ import Logo from '../../assets/images/logo.png'
 const NavBar = props => {
   return (
     <div>
-      <Navbar bg="white" expand="lg">
+      <Navbar className="fixed-top" bg="white" expand="lg">
         <Navbar.Brand href="#home"><img className="nav-logo" src={Logo}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
