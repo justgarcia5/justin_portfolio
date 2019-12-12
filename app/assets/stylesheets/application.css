@@ -17,6 +17,7 @@
   position: relative;
 }
 
+
 .bg:before{
   content: '';
   top: 0;
