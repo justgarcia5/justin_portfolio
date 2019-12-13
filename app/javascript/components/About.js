@@ -9,7 +9,16 @@ class About extends React.Component {
             <h2>About</h2>
             <hr/>
           </div>
-          <div className="skills col-sm">
+          <div className="col-sm">
+            <div>
+              <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:10gzBoINW3cLJfZUka8Zoe&size=detail&theme=light" width="300" height="56" scrolling="no" frameBorder="0" allowtransparency="true"></iframe>
+            </div>
+            <br/>
+            <div className="follow">
+              <iframe src="https://open.spotify.com/embed/album/5eBz5hZihObXdRv0AwH5zB&view=coverart" width="330" height="400" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
+          <div className="col-sm">
             <h2>Skills</h2>
             <hr/>
             <p>JavaScript</p>
@@ -18,10 +27,6 @@ class About extends React.Component {
             <p>Bootstrap</p>
             <p>php</p>
             <p>HTML5/CSS3</p>
-          </div>
-          <div className="col-sm">
-            <h2>Spotify</h2>
-            <hr/>
           </div>
         </div>
       </div>
