@@ -9,9 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <Intro />
-        <section id="#about">
-          <About />
-        </section>
+        <About />
       </div>
     );
   }
