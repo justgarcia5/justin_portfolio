@@ -11,6 +11,7 @@ class App extends React.Component {
       <div>
         <Intro />
         <About />
+        <div className="bg2"></div>
         <Projects />
       </div>
     );

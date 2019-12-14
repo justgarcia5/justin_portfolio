@@ -10,7 +10,7 @@
 
 .bg {
   background-image: url("https://teneev.com/wp-content/uploads/2019/09/website-design.png");
-  height: 600px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.863);
+  background: rgba(0, 0, 0, 0.767);
   position: absolute;
 }
 
@@ -38,18 +38,19 @@
   position: relative;
 }
 
+
 .bg2:before {
   content: '';
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.863);
+  background: rgba(0, 0, 0, 0.767);
   position: absolute;
 }
 
 .intro-text {
-  padding-top: 260px;
+  padding-top: 360px;
   color: white;
   text-align: center;
   position: relative;
@@ -63,8 +64,8 @@
 .about {
   color: rgb(75, 73, 73);
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   font-family: "Optima", sans-serif;
 }
 
@@ -75,7 +76,7 @@
 }
 
 .card {
-  width: 18rem;
+  width: 19rem;
   margin: auto;
 }
 
