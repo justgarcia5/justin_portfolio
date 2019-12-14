@@ -3,7 +3,7 @@ import React from "react"
 class About extends React.Component {
   render () {
     return (
-      <div className="about container">
+      <div className="about container d-flex p-2 bd-highlight">
         <div className="row">
           <div className="col-sm">
             <h2>About</h2>

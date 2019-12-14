@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Intro from './Intro'
 import About from './About'
+import Projects from './Projects'
 
 class App extends React.Component {
   render () {
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div>
         <Intro />
         <About />
+        <Projects />
       </div>
     );
   }
