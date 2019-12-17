@@ -9,8 +9,16 @@ class Contact extends React.Component {
         <p>Fill out the form and send me a message or email me at <a href="mailto:justgarcia5@gmail.com" >justgarcia5@gmail.com</a>.</p>
         <form className="from-group">
           <label>
+            <p className="label-txt">ENTER YOUR NAME</p>
+            <input type="text" className="input" name="name"/>
+            <div className="line-box">
+              <div className="line"></div>
+            </div>
+          </label>
+          <br/>
+          <label>
             <p className="label-txt">ENTER YOUR EMAIL</p>
-            <input type="text" className="input" />
+            <input type="text" className="input" name="email"/>
             <div className="line-box">
               <div className="line"></div>
             </div>
@@ -18,7 +26,7 @@ class Contact extends React.Component {
           <br/>
           <label>
             <p className="label-txt">ENTER YOUR MESSAGE</p>
-            <input type="text" className="input" />
+            <textarea type="text" className="input" name="message"/>
             <div className="line-box">
               <div className="line"></div>
             </div>
