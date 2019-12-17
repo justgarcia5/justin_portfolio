@@ -1,16 +1,74 @@
 import React from "react"
+import { Redirect } from 'react-router-dom'
+
 
 class Contact extends React.Component {
+  state = {
+    contact: {
+      name: '',
+      email: '',
+      message: ''
+    },
+    responseOk: false,
+    errors: null
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault()
+    console.log('contact submitted')
+    fetch('/contacts.json', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ contact: this.state.contact })
+    }).then((response) => {
+      return response.json().then((json) => {
+        if(response.status === 200) {
+          this.setState({
+            responseOk: true,
+            contact: {
+              name: '',
+              email: '',
+              message: ''
+            } })
+          console.log(this.state.responseOk)
+        } else {
+          this.setState({
+            responseOk: false,
+            errors: json,
+          })
+        }
+        return json
+      })
+    }).catch((errors) => {
+      this.setState({responseOk: false, errors: {'System Error': ['Unknown problem has occurred']}})
+    })
+  }
+
+  handleChange = (event) => {
+    let { contact } = this.state
+    contact[event.target.name] = event.target.value
+    this.setState({ contact: contact })
+  }
+
   render () {
+    const { contact } = this.state
+
     return (
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
         <hr className="col-sm-4"/>
         <p>Fill out the form and send me a message or email me at <a href="mailto:justgarcia5@gmail.com" >justgarcia5@gmail.com</a>.</p>
-        <form className="from-group">
+        {this.state.responseOk &&
+          <div className="container col-sm-4 m-auto">
+            <div className="alert alert-success text-center">Success: Message Sent!<br/>Thank you! I will respond as promply as possible.</div>
+          </div>
+        }
+        <form className="from-group" onSubmit={this.handleSubmit}>
           <label>
             <p className="label-txt">ENTER YOUR NAME</p>
-            <input type="text" className="input" name="name"/>
+            <input type="text" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
             <div className="line-box">
               <div className="line"></div>
             </div>
@@ -18,7 +76,7 @@ class Contact extends React.Component {
           <br/>
           <label>
             <p className="label-txt">ENTER YOUR EMAIL</p>
-            <input type="text" className="input" name="email"/>
+            <input type="text" className="input" name="email" onChange={this.handleChange} value={contact.email}/>
             <div className="line-box">
               <div className="line"></div>
             </div>
@@ -26,7 +84,7 @@ class Contact extends React.Component {
           <br/>
           <label>
             <p className="label-txt">ENTER YOUR MESSAGE</p>
-            <textarea type="text" className="input" name="message"/>
+            <textarea type="text" className="input" name="message" onChange={this.handleChange} value={contact.message}/>
             <div className="line-box">
               <div className="line"></div>
             </div>

@@ -1,0 +1,9 @@
+
+<% @contacts.each do |contact| %>
+  <div style="margin-top: 100px;">
+    <%= contact.name %>
+    <%= contact.email %>
+    <%= contact.message %>
+    <%= contact.created_at %>
+  </div>
+<% end %>

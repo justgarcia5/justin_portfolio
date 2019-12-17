@@ -1,9 +1,10 @@
 import React from "react"
-import { Navbar, Nav, Link } from "react-bootstrap";
-import { BrowserRouter as Router } from 'react-router-dom'
+import { Navbar, Nav } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 import Logo from '../../assets/images/logo.png'
+import App from './App'
 
 const NavBar = props => {
   return (
