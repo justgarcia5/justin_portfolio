@@ -1,15 +1,23 @@
 import React from "react"
-import { Jumbotron } from 'react-bootstrap'
+
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import IntroText from '../components/IntoText'
 
 class Intro extends React.Component {
   render () {
     return (
-      <div className="wrapper">
+      <div className="wrapper" name="intro" id="intro">
         <div className="bg">
           <div className="intro-text">
-            <h1>My name is Justin Garcia and I am a Web Developer...</h1>
+            <IntroText />
           </div>
         </div>
+        <About />
+        <div className="bg2"></div>
+        <Projects />
+        <Contact />
       </div>
     );
   }
