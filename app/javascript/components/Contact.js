@@ -1,6 +1,4 @@
 import React from "react"
-import { Redirect } from 'react-router-dom'
-
 
 class Contact extends React.Component {
   state = {

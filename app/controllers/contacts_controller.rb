@@ -2,7 +2,11 @@ class ContactsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-    @contacts = Contact.all
+    if current_admin
+      @contacts = Contact.all
+    else
+      route_not_found
+    end
   end
 
   def create
