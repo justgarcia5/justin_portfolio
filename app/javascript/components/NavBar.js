@@ -30,6 +30,7 @@ const NavBar = props => {
         </Router>
       </div>
     }
+
     {!props.current_admin &&
       <div>
         <Router>
