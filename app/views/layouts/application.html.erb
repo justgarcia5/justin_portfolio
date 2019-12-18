@@ -19,7 +19,14 @@
   </head>
 
   <body>
-    <%= react_component('NavBar') %>
+    <% if admin_signed_in? %>
+      <%= react_component "NavBar", current_admin: {
+        id: current_admin.id,
+        email: current_admin.email,
+      } %>
+    <% else %>
+      <%= react_component 'NavBar', props: {'logged_in': false}%>
+    <% end %>
     <%= yield %>
   </body>
 </html>
