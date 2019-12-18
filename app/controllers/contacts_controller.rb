@@ -4,6 +4,7 @@ class ContactsController < ApplicationController
   def index
     if current_admin
       @contacts = Contact.all
+    end
   end
 
   def create
@@ -11,6 +12,7 @@ class ContactsController < ApplicationController
 
     if @contact.save
       render json: @contact
+
     else
       render json: @contact.errors
     end
