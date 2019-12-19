@@ -24,7 +24,7 @@ class Contact extends React.Component {
       body: JSON.stringify({ contact: this.state.contact })
     }).then((response) => {
       return response.json().then((json) => {
-        console.log(response, json)
+        // console.log(response, json)
         if(response.status === 200 && !Array.isArray(json.email)) {
           this.setState({
             responseOk: true,
@@ -100,7 +100,7 @@ class Contact extends React.Component {
           <button className="mt-5" type="submit">SUBMIT</button>
         </form>
         <footer>
-          <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> | Los Angeles, Ca</p>
+          <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> | Culver City, Ca</p>
           <p><a href="admins/sign_in" >Admin</a></p>
         </footer>
       </div>
