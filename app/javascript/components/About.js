@@ -8,7 +8,7 @@ class About extends React.Component {
           <div className="col-sm">
             <h2>About</h2>
             <hr/>
-            <p className="mt-5 text-left">For the duration of my life I’ve have always been very artistic, whether it was drawing with pastels or using water colors, I have always seemed to have a vision of a finished product that was unique and that would stand out from the rest. Since becoming a Web Developer I’ve discovered that I was able to administer these same principles and allow myself to express my artistic side as a developer. With my work experience and my passion to live and breath coding, I believe that I would be a valuable addition to any team!</p>
+            <p className="mt-5 text-left">For the duration of my life I’ve have always been very artistic, whether it was drawing with pastels or using water colors, I have always seemed to have a vision of a finished product that was unique and that would stand out from the rest. Since becoming a Web Developer I’ve discovered that I was able to administer these same principles and allow myself to express my artistic side as a developer. With my work experience and my passion to live and breath coding, I believe that I would be a valuable addition to any team! When I am not coding you can catch me outside. I love being outdoors, traveling, and eating food!</p>
           </div>
           <div className="col-sm">
           <h2>Skills</h2>

@@ -81,13 +81,9 @@
 }
 
 .card {
-  margin: auto;
   margin-bottom: 50px;
-}
+  width: 440px!important;
 
-.card-col {
-  width: 20rem;
-  margin: 10px;
 }
 
 .card-text {
