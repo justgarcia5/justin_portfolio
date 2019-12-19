@@ -4,6 +4,8 @@ class ContactsController < ApplicationController
   def index
     if current_admin
       @contacts = Contact.all
+    else
+      route_not_found
     end
   end
 
