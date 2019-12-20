@@ -24,5 +24,8 @@
         <% end %>
       </tbody>
     </table>
+  <% if @contacts.length == 0 %>
+    <h5 class="text-center mt-5">You have no messages...</h5>
+  <% end%>
   </div>
 </div>

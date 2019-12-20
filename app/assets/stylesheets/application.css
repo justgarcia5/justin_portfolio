@@ -49,6 +49,16 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 600px) {
+  .bg {
+    height: 200px!important;
+  }
+
+  .bg2 {
+    height: 200px!important;
+  }
+}
+
 .intro-text {
   padding-top: 360px;
   color: white;

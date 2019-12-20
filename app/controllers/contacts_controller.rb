@@ -4,7 +4,7 @@ class ContactsController < ApplicationController
 
   def index
     if current_admin
-      @contacts = Contact.all
+      @contacts = Contact.order('created_at DESC')
     else
       route_not_found
     end
@@ -25,7 +25,6 @@ class ContactsController < ApplicationController
     return unless @contact.destroy
 
     redirect_to contacts_path
-    flash[:notice] = 'Location was successfully deleted'
   end
 
   private
