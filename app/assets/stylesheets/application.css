@@ -30,7 +30,7 @@
 
 .bg2 {
   background-image: url('https://miro.medium.com/max/3840/1*n2Kx9gwNfa9zkWMDBJU7bw.png');
-  height: 600px;
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -368,6 +368,6 @@ footer p {
   margin-top: 28px;
 }
 
-.picture-bg {
+#picture-bg {
   padding-bottom: 11rem;
 }
