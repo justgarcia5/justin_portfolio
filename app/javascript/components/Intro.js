@@ -4,6 +4,7 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import IntroText from '../components/IntoText'
+import PicturesBg from "./PicturesBg"
 
 class Intro extends React.Component {
   render () {
@@ -17,6 +18,7 @@ class Intro extends React.Component {
         <About />
         <div className="bg2"></div>
         <Projects />
+        <PicturesBg />
         <Contact />
       </div>
     );

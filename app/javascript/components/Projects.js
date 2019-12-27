@@ -1,7 +1,5 @@
 import React from "react"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import Recipe from '../../assets/images/recipe2.png'
 import Tool from '../../assets/images/toolshare.png'
 import Zeal from '../../assets/images/zeal.png'
