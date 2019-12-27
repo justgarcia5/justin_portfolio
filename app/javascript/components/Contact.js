@@ -75,7 +75,7 @@ class Contact extends React.Component {
           <Errors errors={errors} />
           <label>
             <p className="label-txt">ENTER YOUR NAME</p>
-            <input type="text" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
+            <input type="text form-control" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
             <div className="line-box">
               <div className="line"></div>
             </div>

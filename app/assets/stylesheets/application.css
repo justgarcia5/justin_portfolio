@@ -294,7 +294,7 @@ label {
   transition: ease .3s;
 }
 .input {
-  width: 38rem;
+  width: 38em;
   padding: 10px;
   background: transparent;
   border: none;
