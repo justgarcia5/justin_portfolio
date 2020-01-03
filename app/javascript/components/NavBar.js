@@ -1,13 +1,13 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, browserHistory } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 import Logo from '../../assets/images/logo.png'
 import App from './App'
 
 const NavBar = props => {
-  console.log(props.current_admin)
+  console.log(browserHistory)
   return (
     <div>
     {props.current_admin &&
@@ -33,7 +33,7 @@ const NavBar = props => {
 
     {!props.current_admin &&
       <div>
-        <Router>
+        <Router history={browserHistory}>
           <Navbar className="fixed-top" bg="white" expand="lg">
             <Nav.Link href="/" className="nav-link"><img className="nav-logo" src={Logo}/></Nav.Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
