@@ -19,7 +19,7 @@ function Resume() {
       <a type="button" variant="primary" onClick={handleShow}>
         <hr/>
         <br/>
-        <Image width={250} src={resume} thumbnail/>
+        <Image width={250} src={resume} />
       </a>
 
       <Modal show={show} onHide={handleClose} size="lg">
@@ -27,7 +27,8 @@ function Resume() {
           <Modal.Title>Resume</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-center">
-          <Image src={resume} />
+          {/* <Image src={resume} /> */}
+          <p>Hello</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
