@@ -27,8 +27,7 @@ function Resume() {
           <Modal.Title>Resume</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-center">
-          {/* <Image src={resume} /> */}
-          <p>Hello</p>
+          <Image src={resume} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

@@ -27,7 +27,7 @@ function LetRec() {
           <Modal.Title>Letter of Reccomendation</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-center">
-          {/* <Image src={letRec} /> */}
+          <Image src={letRec} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
