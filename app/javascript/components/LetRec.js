@@ -5,7 +5,7 @@ import {
   Modal,
   Image
 } from 'react-bootstrap';
-import letRec from '../../assets/documents/LetRec.png'
+import letRec from '../../assets/images/documents/LetRec.png'
 
 function LetRec() {
   const [show, setShow] = useState(false);
@@ -14,9 +14,9 @@ function LetRec() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="mb-5 pb-5 text-center">
-      <a className="docs" type="button" variant="primary" onClick={handleShow}>
-        <h5>Letter of Reccomendation</h5>
+    <div className="docs mb-5 pb-5 text-center">
+      <h4>Letter of Reccomendation</h4>
+      <a type="button" variant="primary" onClick={handleShow}>
         <hr/>
         <br/>
         <Image width={250} src={letRec} thumbnail/>

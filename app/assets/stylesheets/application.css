@@ -377,11 +377,16 @@ footer a {
   padding-bottom: 11rem;
 }
 
-.docs:hover img {
+.docs img:hover {
   opacity: 0.5;
   cursor: zoom-in;
 }
 
-.docs h5 {
+.docs h4 {
   font-family: "Optima", sans-serif;
+  color: rgb(75, 73, 73);
 }
+
+/* div.line-box {
+  max-width: 100%;
+} */

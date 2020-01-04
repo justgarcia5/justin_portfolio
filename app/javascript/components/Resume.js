@@ -5,7 +5,7 @@ import {
   Modal,
   Image
 } from 'react-bootstrap';
-import resume from '../../assets/documents/resume.png'
+import resume from '../../assets/images/documents/resume.png'
 
 function Resume() {
   const [show, setShow] = useState(false);
@@ -14,9 +14,9 @@ function Resume() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="mb-5 pb-5 text-center">
-      <a className="docs" type="button" variant="primary" onClick={handleShow}>
-        <h5>Resume</h5>
+    <div className="docs mb-5 pb-5 text-center">
+      <h4>Resume</h4>
+      <a type="button" variant="primary" onClick={handleShow}>
         <hr/>
         <br/>
         <Image width={250} src={resume} thumbnail/>
