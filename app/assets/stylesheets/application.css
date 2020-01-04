@@ -252,20 +252,20 @@
 }
 
 .contact-div {
-  background-color: #dedfde;
+  background-color: #3f3f3f;
   padding-top: 160px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   font-family: "Optima", sans-serif;
 }
 
 .contact-div h2 {
   text-align: center;
-  color: rgb(95, 95, 95);
+  color: white;
 }
 
 .contact-div p {
   text-align: center;
-  color: rgb(95, 95, 95);
+  color: white;
 }
 
 form {
@@ -290,7 +290,7 @@ label {
   font-family: "Optima", sans-serif;
   font-size: .8em;
   letter-spacing: 1px;
-  color: rgb(120,120,120);
+  color: rgb(34, 32, 32)!important;
   transition: ease .3s;
 }
 .input {
@@ -327,7 +327,7 @@ label {
   top: -3em;
 }
 
-button {
+.submit-btn {
   display: inline-block;
   padding: 12px 24px;
   background: rgb(220,220,220);
@@ -340,7 +340,7 @@ button {
   transition: ease .3s;
 }
 
-button:hover {
+.submit-btn:hover {
   background: #8BC34A;
   color: #ffffff;
 }
@@ -351,6 +351,11 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .admins-login {
@@ -370,4 +375,13 @@ footer p {
 
 #picture-bg {
   padding-bottom: 11rem;
+}
+
+.docs:hover img {
+  opacity: 0.5;
+  cursor: zoom-in;
+}
+
+.docs h5 {
+  font-family: "Optima", sans-serif;
 }

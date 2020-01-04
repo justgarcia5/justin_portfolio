@@ -64,8 +64,7 @@ class Contact extends React.Component {
     return (
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
-        <hr className="col-sm-4"/>
-        <p>Fill out the form and send me a message or email me at <a href="mailto:justgarcia5@gmail.com" >justgarcia5@gmail.com</a>.</p>
+        <p className="contacts" >Fill out the form and send me a message or email me at <a href="mailto:justgarcia5@gmail.com" >justgarcia5@gmail.com</a>.</p>
         <form className="from-group" onSubmit={this.handleSubmit}>
           {responseOk &&
             <div className="container col-sm-12 m-auto">
@@ -97,7 +96,7 @@ class Contact extends React.Component {
             </div>
           </label>
           <br/>
-          <button className="mt-5" type="submit">SUBMIT</button>
+          <button className="submit-btn mt-5" type="submit">SUBMIT</button>
         </form>
         <footer>
           <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> | Culver City, Ca</p>

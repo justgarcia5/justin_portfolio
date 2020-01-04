@@ -1,8 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
+import {
+  Container,
+  Col,
+  Row
+} from 'react-bootstrap';
 
-class About extends React.Component {
-  render () {
-    return (
+import Resume from '../components/Resume'
+import LetRec from '../components/LetRec'
+
+function About() {
+
+  return (
+    <div>
       <div className="about container d-flex" name="about" id="about" method="post">
         <div className="row">
           <div className="col-sm">
@@ -29,8 +38,22 @@ class About extends React.Component {
           </div>
         </div>
       </div>
-    );
-  }
+
+      <div>
+        <Container className="text-center m-auto">
+          <Row className="text-center">
+            <Col xs={6} md={6}>
+              <Resume />
+            </Col>
+            <Col xs={6} md={6}>
+              <LetRec />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
 }
+
 
 export default About
