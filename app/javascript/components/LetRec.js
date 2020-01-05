@@ -16,7 +16,7 @@ function LetRec() {
   return (
     <div className="docs mb-5 pb-5 text-center">
       <h4>Letter of Reccomendation</h4>
-      <a type="button" variant="primary" onClick={handleShow}>
+      <a variant="primary" onClick={handleShow}>
         <hr/>
         <br/>
         <Image width={250} src={letRec} />
