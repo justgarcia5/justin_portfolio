@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-
 import {
   Button,
   Modal,
   Image
 } from 'react-bootstrap';
+
 import resume from '../../assets/documents/resume.png'
 
 function Resume() {
