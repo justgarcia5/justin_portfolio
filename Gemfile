@@ -58,3 +58,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'react-rails'
+gem 'bootstrap', '~> 4.4.1'
