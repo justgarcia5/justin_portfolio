@@ -22,12 +22,16 @@ function Resume() {
         <Image width={250} src={resume} thumbnail/>
       </a> */}
 
-      <a className="docs" type="button" variant="primary" onClick={handleShow}>
+      {/* <a className="docs" type="button" variant="primary" onClick={handleShow}>
         <h5>Resume</h5>
         <hr/>
         <br/>
         <Image width={250} src={resume} thumbnail/>
-      </a>
+      </a> */}
+
+      <Button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </Button>
 
       <Modal show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>
