@@ -5,8 +5,8 @@ import {
   Row
 } from 'react-bootstrap';
 
-import Resume from '../components/Resume'
-import LetRec from '../components/LetRec'
+// import Resume from '../components/Resume'
+// import LetRec from '../components/LetRec'
 
 function About() {
 
@@ -39,7 +39,7 @@ function About() {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <Container className="text-center m-auto">
           <Row className="text-center">
             <Col xs={6} md={6}>
@@ -50,7 +50,7 @@ function About() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 }

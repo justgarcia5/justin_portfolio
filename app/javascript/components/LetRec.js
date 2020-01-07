@@ -6,6 +6,7 @@ import {
 } from 'react-bootstrap';
 
 import letRec from '../../assets/documents/LetRec.png'
+// import letter from '../../assets/docs/letter.pdf'
 
 function LetRec() {
   const [show, setShow] = useState(false);
@@ -15,6 +16,11 @@ function LetRec() {
 
   return (
     <div className="mb-5 pb-5 text-center">
+
+      {/* <a className="col-sm-6" href={letter} rel="noopener noreferrer" target="_blank">
+        <Image width={250} src={letRec} thumbnail/>
+      </a> */}
+
       <a className="docs" type="button" variant="primary" onClick={handleShow}>
         <h5>Letter of Reccomendation</h5>
         <hr/>

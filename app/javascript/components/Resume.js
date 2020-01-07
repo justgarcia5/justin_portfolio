@@ -6,6 +6,8 @@ import {
 } from 'react-bootstrap';
 
 import resume from '../../assets/documents/resume.png'
+// import Res from '../../assets/docs/resume.pdf'
+
 
 function Resume() {
   const [show, setShow] = useState(false);
@@ -15,6 +17,11 @@ function Resume() {
 
   return (
     <div className="mb-5 pb-5 text-center">
+
+      {/* <a className="col-sm-6" href={Res} rel="noopener noreferrer" target="_blank">
+        <Image width={250} src={resume} thumbnail/>
+      </a> */}
+
       <a className="docs" type="button" variant="primary" onClick={handleShow}>
         <h5>Resume</h5>
         <hr/>
