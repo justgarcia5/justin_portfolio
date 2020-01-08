@@ -10,7 +10,7 @@
 
 .bg {
   background-image: url("https://teneev.com/wp-content/uploads/2019/09/website-design.png");
-  height: 700px;
+  height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 }
 
 .intro-text {
-  padding-top: 360px;
+  padding-top: 50vh;
   color: white;
   text-align: center;
   position: relative;

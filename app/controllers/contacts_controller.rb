@@ -1,6 +1,6 @@
 class ContactsController < ApplicationController
   skip_before_action :verify_authenticity_token
-  before_action :find_contact, only: %i[destroy]
+  before_action :find_contact, only: %i(destroy)
 
   def index
     if current_admin
