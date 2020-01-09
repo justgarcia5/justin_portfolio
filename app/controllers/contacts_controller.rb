@@ -14,8 +14,8 @@ class ContactsController < ApplicationController
     @contact = Contact.create(contact_params)
 
     if @contact.save
-      render json: @contact
       AdminMailer.new_message_email.deliver_now
+      render json: @contact
     else
       render json: @contact.errors
     end
