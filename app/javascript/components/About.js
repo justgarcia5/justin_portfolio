@@ -33,7 +33,6 @@ function About() {
               <p>MySQL</p>
             </div>
           </div>
-
           <div className="col-sm">
             <iframe src="https://open.spotify.com/embed/album/5eBz5hZihObXdRv0AwH5zB&view=coverart" width="340" height="450" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
