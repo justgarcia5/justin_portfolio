@@ -32,7 +32,8 @@ class Contact extends React.Component {
               name: '',
               email: '',
               message: ''
-            } })
+            }
+          })
         } else {
           this.setState({
             responseOk: false,
