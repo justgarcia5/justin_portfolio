@@ -71,7 +71,7 @@ class Contact extends React.Component {
               <div className="alert alert-success text-center">Message Sent!<br/>Thank you! I will respond as promply as possible.</div>
             </div>
           }
-          <Errors errors={errors} />
+          {/* <Errors errors={errors} /> */}
           <label>
             <p className="label-txt">ENTER YOUR NAME</p>
             <input type="text form-control" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
