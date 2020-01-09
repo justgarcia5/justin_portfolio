@@ -5,6 +5,6 @@ class AdminMailer < ApplicationMailer
     @admin = Admin.first
     @contacts = Contact.all
 
-    mail(to: @admin.email, subject: 'Welcome to My Awesome Site')
+    mail(to: @admin.email, subject: 'New message in Portfolio inbox')
   end
 end
