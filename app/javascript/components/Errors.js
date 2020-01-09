@@ -7,7 +7,7 @@ class Errors extends React.Component{
       <div className="container col-sm-12 m-auto">
         {errors &&
           <div className="alert alert-danger text-left">
-            <h2 className="text-left">Errors:</h2>
+            <h2 className="text-left errors">Errors:</h2>
             {Object.keys(errors).map((key, index) => {
               return (
                 <li key={index}>
