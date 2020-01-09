@@ -6,6 +6,5 @@ class AdminMailer < ApplicationMailer
     @contacts = Contact.all
 
     mail(to: @admin.email, subject: 'Welcome to My Awesome Site')
-
   end
 end
