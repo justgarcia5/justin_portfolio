@@ -6,6 +6,10 @@
   <body>
     <h1>Hello, <%= @admin.email %></h1>
 
+    You have <%= @contacts.length %> new messages.
+
+    <br>
+
     <% @contacts.each do |contact| %>
       <%= contact.name %>
       <%= contact.email %>
