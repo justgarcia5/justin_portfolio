@@ -13,7 +13,7 @@ class Projects extends React.Component {
         <div className="projects-div" name="projects" id="projects">
           <h2 className="projects-h2 text-center">My Work</h2>
           <hr className="col-sm-4"/>
-          <div className="container d-flex justify-content-center mt-5">
+          <div className="d-flex justify-content-center mt-5">
             <div className="row justify-content-center">
               <div className="card-col m-5">
                 <div className="card hovereffect" >
