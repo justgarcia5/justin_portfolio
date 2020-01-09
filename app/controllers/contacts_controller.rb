@@ -16,6 +16,7 @@ class ContactsController < ApplicationController
     respond_to do |format|
       if @contact.save
         AdminMailer.new_message_email.deliver_now
+
         format.json { render json: @contact, status: :created, location: @contact }
       else
         format.json { render json: @contact.errors, status: :unprocessable_entity }
