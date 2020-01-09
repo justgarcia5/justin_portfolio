@@ -27,6 +27,7 @@ class Contact extends React.Component {
         // console.log(response, json)
         if(response.status === 201) {
           this.setState({
+            errors: null,
             responseOk: true,
             contact: {
               name: '',
