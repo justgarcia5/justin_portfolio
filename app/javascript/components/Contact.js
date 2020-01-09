@@ -28,7 +28,6 @@ class Contact extends React.Component {
         if(response.status === 201) {
           this.setState({
             responseOk: true,
-            errors: null,
             contact: {
               name: '',
               email: '',
