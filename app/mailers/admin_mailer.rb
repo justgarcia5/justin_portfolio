@@ -3,9 +3,9 @@ class AdminMailer < ApplicationMailer
 
   def new_message_email
     @admin = Admin.first
-    @comments = Comment.all
+    @contacts = Contact.all
 
-    mail(to: @admin.email, subject: 'Welcome to My Awesome Site').deliver_now
+    mail(to: @admin.email, subject: 'Welcome to My Awesome Site')
 
   end
 end

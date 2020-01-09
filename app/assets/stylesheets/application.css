@@ -385,3 +385,7 @@ footer a {
 .docs h5 {
   font-family: "Optima", sans-serif;
 }
+
+.errors {
+  color: #721c24!important;
+}
