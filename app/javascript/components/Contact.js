@@ -25,7 +25,7 @@ class Contact extends React.Component {
     }).then((response) => {
       return response.json().then((json) => {
         // console.log(response, json)
-        if(response.status === 200 && !Array.isArray(json.email)) {
+        if(response.status === 201) {
           this.setState({
             responseOk: true,
             errors: null,
@@ -34,11 +34,6 @@ class Contact extends React.Component {
               email: '',
               message: ''
             } })
-        } else if(Array.isArray(json.email)) {
-          this.setState({
-            responseOk: false,
-            errors: json
-             })
         } else {
           this.setState({
             responseOk: false,
@@ -60,7 +55,7 @@ class Contact extends React.Component {
 
   render () {
     const { contact, responseOk, errors } = this.state
-    // console.log(errors, responseOk)
+    console.log(errors, responseOk)
     return (
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
