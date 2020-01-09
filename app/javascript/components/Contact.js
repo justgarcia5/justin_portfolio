@@ -56,7 +56,7 @@ class Contact extends React.Component {
 
   render () {
     const { contact, responseOk, errors } = this.state
-    console.log(errors, responseOk)
+    // console.log(errors, responseOk)
     return (
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
@@ -67,9 +67,7 @@ class Contact extends React.Component {
               <div className="alert alert-success text-center">Message Sent!<br/>Thank you! I will respond as promply as possible.</div>
             </div>
           }
-          {!responseOk &&
-            <Errors errors={errors} />
-          }
+          <Errors errors={errors} />
           <label>
             <p className="label-txt">ENTER YOUR NAME</p>
             <input type="text form-control" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
