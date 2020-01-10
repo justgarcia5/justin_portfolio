@@ -33,5 +33,7 @@
   "devDependencies": {
     "webpack-dev-server": "^3.9.0"
   },
-  "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+  "scripts": {
+    "build": "webpack --config prod.config.js"
+  }
 }
