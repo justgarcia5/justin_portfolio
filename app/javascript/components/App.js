@@ -1,5 +1,4 @@
 import React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Intro from './Intro'
 import StickyBar from '../components/StickyBar'
