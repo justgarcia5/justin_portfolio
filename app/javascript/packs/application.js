@@ -12,6 +12,8 @@
 // Support component names relative to this directory:
 
 import "bootstrap";
+import 'jquery/dist/jquery.slim'
+import 'popper.js/dist/esm/popper'
 // import "@fortawesome/fontawesome-free/js/all";
 import "./stylesheets/application.scss";
 
