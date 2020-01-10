@@ -1,40 +1,35 @@
-import React, { useState } from 'react';
-import {
-  Button,
-  Modal,
-  Image
-} from 'react-bootstrap';
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 import letRec from '../../assets/documents/LetRec.png'
 
 function LetRec() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <div className="mb-5 pb-5 text-center">
-      <a className="docs" type="button" variant="primary" onClick={handleShow}>
-        <h5>Letter of Reccomendation</h5>
+      <a className="docs" type="button" data-toggle="modal" data-target=".bd2-example-modal-lg">
+        <h5>Letter of Recomendation</h5>
         <hr/>
         <br/>
         <Image width={250} src={letRec} thumbnail/>
       </a>
 
-      <Modal show={show} onHide={handleClose} size="lg">
-        <Modal.Header closeButton>
-          <Modal.Title>Letter of Reccomendation</Modal.Title>
-        </Modal.Header>
-        <Modal.Body className="text-center">
-          <Image src={letRec} />
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      <div className="modal fade bd2-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-lg" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div className="modal-body">
+              <Image src={letRec} />
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
