@@ -12,7 +12,6 @@ function About() {
 
   return (
     <div>
-
       <div className="about container d-flex" name="about" id="about" method="post">
         <div className="row">
           <div className="col-sm">
