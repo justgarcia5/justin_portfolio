@@ -16,12 +16,14 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 // Support component names relative to this directory:
 import "bootstrap";
-// import "../packs/stylesheets/application.scss";
+
+import "../packs/stylesheets/application";
 
 var componentRequireContext = require.context("components", true);
 var ReactRailsUJS = require("react_ujs");
 ReactRailsUJS.useContext(componentRequireContext);
 
-document.addEventListener("turbolinks:load", ()=> {
+document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
+  // console.log("this is webpack")
 })
