@@ -1,9 +1,6 @@
 {
   "name": "portfolio",
   "private": true,
-  "engines": {
-    "node": "12.13.0"
-  },
   "dependencies": {
     "@babel/preset-react": "^7.7.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
@@ -33,6 +30,9 @@
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
+  "engines": {
+    "node": "12.13.0"
+  },
   "devDependencies": {
     "webpack-dev-server": "^3.9.0"
   }
