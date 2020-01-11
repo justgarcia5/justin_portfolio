@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 
-import resume from '../../assets/documents/resume.png'
+import resume from '../packs/images/documents/resume.png'
 
 function Resume() {
   return (
