@@ -242,6 +242,14 @@
   color: black;
 }
 
+.icon-foot i {
+  font-size: 26px!important;
+}
+
+.icon-foot i:hover {
+  color: rgb(172, 171, 171)
+}
+
 .facebook {
   background: #3B5998;
   color: white;
@@ -297,7 +305,7 @@ form {
 label {
   display: block;
   position: relative;
-  margin: 40px 0px;
+  margin: 10px 0px;
 }
 .label-txt {
   position: absolute;

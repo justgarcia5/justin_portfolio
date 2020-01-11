@@ -95,6 +95,14 @@ class Contact extends React.Component {
           <button className="submit-btn mt-5" type="submit">SUBMIT</button>
         </form>
         <footer>
+          <div className="d-flex justify-content-center">
+            <a href="https://www.facebook.com/justin.garcia.378199" className='icon-foot m-2' target="_blank"><i className="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/Justgarcia85" className='icon-foot m-2' target="_blank"><i className="fa fa-twitter"></i></a>
+            <a href="https://github.com/justgarcia5" className='icon-foot m-2' target="_blank"><i className="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/just-g-garcia/" className='icon-foot m-2' target="_blank"><i className="fa fa-linkedin"></i></a>
+            <a href="mailto:justgarcia5@gmail.com" className='icon-foot m-2' target="_blank"><i className="fa fa-envelope"></i></a>
+          </div>
+          <br/>
           <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> | Culver City, Ca</p>
           <p><a href="admins/sign_in" >Admin</a></p>
         </footer>
