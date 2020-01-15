@@ -34,9 +34,18 @@
 }
 
 @media (min-width: 576px) {
+
   .modal-dialog {
       max-width: 500px;
       margin: 140px;
+  }
+
+  .col-sm-12 {
+    padding-bottom: 30px;
+  }
+
+  .alert h2 {
+    font-size: 28px!important;
   }
 }
 
@@ -86,6 +95,10 @@
     font-size: 18px;
   }
 
+  form {
+    width: 700px!important;
+  }
+
   .icon-foot i {
     font-size: 50px!important;
     margin: 10px!important;
@@ -94,10 +107,6 @@
   .intro-text h1 {
     font-size: 75px!important;
     color: white!important;
-    // border: rgba(0, 0, 0, 0.658) solid 1px;
-    // width: 700px;
-    // background: rgba(0, 0, 0, 0.658);
-    // padding: 38px;
   }
 
   .iframe {
@@ -117,15 +126,12 @@
   .about p {
     font-size: 28px;
     width: 700px;
+    margin: auto;
   }
 
   .bg {
     height: 100vh;
   }
-
-  // .bg:before {
-  //   background: none;
-  // }
 
   .bg2 {
     background: none!important;
