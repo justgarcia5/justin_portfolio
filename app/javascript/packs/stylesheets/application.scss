@@ -30,9 +30,26 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.767);
   position: absolute;
+
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 140px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
+
+  .modal-dialog {
+    margin-top: 280px!important;
+    justify-content: center!important;
+  }
+
+  .modal-content {
+    width: 700px!important;
+  }
 
   .nav-logo {
     width: 200px;
