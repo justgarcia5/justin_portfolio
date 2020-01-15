@@ -32,10 +32,10 @@
   position: absolute;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 480px) {
 
   .nav-logo {
-    width: 200px;
+    width: 200px!important;
   }
 
  .navbar-toggler-icon {
@@ -111,8 +111,8 @@
   // }
 
   .bg2 {
-    // background: none;
-    background-size: 500%!important;
+    background: none!important;
+    position: absolute!important;
   }
 
 }
