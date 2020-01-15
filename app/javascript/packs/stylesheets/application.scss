@@ -34,22 +34,85 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+  .nav-logo {
+    width: 200px;
+  }
+
+ .navbar-toggler-icon {
+    width: 80px!important;
+    height: 80px!important;
+  }
+
+  .nav-link {
+    font-size: 26px!important;
+    text-align: right;
+  }
+
+  .icon-bar a {
+    padding: 26px!important;
+    font-size: 50px!important;
+  }
+
+  // .card-col {
+  //   width: 700px!important;
+  // }
+
+  .projects-h2 {
+    font-size: 60px!important;
+  }
+
+  .contact-div h2 {
+    font-size: 60px;
+  }
+
+  .contact-div p {
+    font-size: 18px;
+  }
+
+  .icon-foot i {
+    font-size: 50px!important;
+    margin: 10px!important;
+  }
+
+  .intro-text h1 {
+    font-size: 75px!important;
+    color: white!important;
+    // border: rgba(0, 0, 0, 0.658) solid 1px;
+    // width: 700px;
+    // background: rgba(0, 0, 0, 0.658);
+    // padding: 38px;
+  }
+
+  .iframe {
+    width: 700px;
+    margin-top: 80px;
+  }
+
+  .intro-text {
+    padding-top: 45vh!important;
+  }
+
+  .about-title {
+    font-size: 60px;
+    padding-top: 50px;
+  }
+
+  .about p {
+    font-size: 28px;
+    width: 700px;
+  }
+
   .bg {
     height: 100vh;
   }
 
-  .intro-text {
-    padding-top: 50vh;
-    color: white;
-    text-align: center;
-    position: relative;
-  }
+  // .bg:before {
+  //   background: none;
+  // }
 
-  .line-box {
-    /* position: relative; */
-    width: 60%;
-    height: 2px;
-    background: #BCBCBC;
+  .bg2 {
+    // background: none;
+    background-size: 500%!important;
   }
 
 }

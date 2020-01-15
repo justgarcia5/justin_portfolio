@@ -12,15 +12,15 @@ function About() {
 
   return (
     <div>
-      <div className="about container d-flex" name="about" id="about" method="post">
-        <div className="row">
-          <div className="col-sm">
-            <h2>About</h2>
+      <div className="about container" name="about" id="about" method="post">
+        <div className="row d-flex">
+          <div className="col-sm mt-5">
+            <h2 className="about-title">About</h2>
             <hr/>
             <p className="mt-5 text-left">For the duration of my life I’ve have always been very artistic, whether it was drawing with pastels or using water colors, I have always seemed to have a vision of a finished product that was unique and that would stand out from the rest. Since becoming a Web Developer I’ve discovered that I was able to administer these same principles and allow myself to express my artistic side as a developer. With my work experience and my passion to live and breath coding, I believe that I would be a valuable addition to any team! </p>
           </div>
-          <div className="col-sm">
-          <h2>Skills</h2>
+          <div className="col-sm mt-5">
+          <h2 className="about-title">Skills</h2>
             <hr/>
             <div className="mt-5">
               <p>JavaScript</p>
@@ -33,8 +33,8 @@ function About() {
               <p>MySQL</p>
             </div>
           </div>
-          <div className="col-sm">
-            <iframe src="https://open.spotify.com/embed/album/5eBz5hZihObXdRv0AwH5zB&view=coverart" width="340" height="450" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <div className="col-sm mt-5">
+            <iframe className="iframe" src="https://open.spotify.com/embed/album/5eBz5hZihObXdRv0AwH5zB&view=coverart" width="340" height="450" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
