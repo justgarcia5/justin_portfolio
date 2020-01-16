@@ -33,12 +33,11 @@
 
 }
 
-@media (min-width: 576px) {
+// .modal-dialog {
+//   width: 700px;
+// }
 
-  .modal-dialog {
-      max-width: 500px;
-      margin: 140px;
-  }
+@media (min-width: 576px) {
 
   .col-sm-12 {
     padding-bottom: 30px;
@@ -54,6 +53,8 @@
   .modal-dialog {
     margin-top: 280px!important;
     justify-content: center!important;
+    max-width: 500px;
+    margin: 140px;
   }
 
   .modal-content {
@@ -78,10 +79,6 @@
     padding: 26px!important;
     font-size: 50px!important;
   }
-
-  // .card-col {
-  //   width: 700px!important;
-  // }
 
   .projects-h2 {
     font-size: 60px!important;
@@ -131,6 +128,9 @@
 
   .bg {
     height: 100vh;
+    // background-color: green;
+    background-image: url("https://teneev.com/wp-content/uploads/2019/09/website-design.png");
+
   }
 
   .bg2 {
