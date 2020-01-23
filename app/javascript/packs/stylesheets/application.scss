@@ -1,5 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
-@import "../../../assets/stylesheets/application";
 
 .nav-logo {
   width: 80px;
@@ -7,7 +6,6 @@
 
 .wrapper {
   width: 100%;
-  /* margin-top: 100px; */
 }
 
 .bg {
@@ -30,10 +28,6 @@
   position: absolute;
 
 }
-
-// .modal-dialog {
-//   width: 700px;
-// }
 
 @media (min-width: 576px) {
 
