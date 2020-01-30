@@ -385,6 +385,10 @@ footer a {
   display: none;
 }
 
+.profile-pic-div {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
   .app {
@@ -421,7 +425,8 @@ footer a {
     text-align: center;
     font-family: "Optima", sans-serif;
     height: 30vh;
-    background-color: rgb(153, 160, 91);
+    background-color: #3f3f3f;
+    color: white;
   }
 
   .mobile-intro h1 {
@@ -490,6 +495,8 @@ footer a {
 
   .contact-div {
     padding: 100px 20px;
+
+
   }
 
   .form-group {
