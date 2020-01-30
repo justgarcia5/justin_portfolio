@@ -29,109 +29,6 @@
 
 }
 
-@media (min-width: 576px) {
-
-  .col-sm-12 {
-    padding-bottom: 30px;
-  }
-
-  .alert h2 {
-    font-size: 28px!important;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 1024px) {
-
-  .modal-dialog {
-    margin-top: 280px!important;
-    justify-content: center!important;
-    max-width: 500px;
-    margin: 140px;
-  }
-
-  .modal-content {
-    width: 700px!important;
-  }
-
-  .nav-logo {
-    width: 200px;
-  }
-
- .navbar-toggler-icon {
-    width: 80px!important;
-    height: 80px!important;
-  }
-
-  .nav-link {
-    font-size: 26px!important;
-    text-align: right;
-  }
-
-  .icon-bar a {
-    padding: 26px!important;
-    font-size: 50px!important;
-  }
-
-  .projects-h2 {
-    font-size: 60px!important;
-  }
-
-  .contact-div h2 {
-    font-size: 60px;
-  }
-
-  .contact-div p {
-    font-size: 18px;
-  }
-
-  form {
-    width: 700px!important;
-  }
-
-  .icon-foot i {
-    font-size: 50px!important;
-    margin: 10px!important;
-  }
-
-  .intro-text h1 {
-    font-size: 75px!important;
-    color: white!important;
-  }
-
-  .iframe {
-    width: 700px;
-    margin-top: 80px;
-  }
-
-  .intro-text {
-    padding-top: 45vh!important;
-  }
-
-  .about-title {
-    font-size: 60px;
-    padding-top: 50px;
-  }
-
-  .about p {
-    font-size: 28px;
-    width: 700px;
-    margin: auto;
-  }
-
-  .bg {
-    height: 100vh;
-    // background-color: green;
-    background-image: url("https://teneev.com/wp-content/uploads/2019/09/website-design.png");
-
-  }
-
-  .bg2 {
-    background: none!important;
-    position: absolute!important;
-  }
-
-}
-
 .bg2 {
   background-image: url('https://miro.medium.com/max/3840/1*n2Kx9gwNfa9zkWMDBJU7bw.png');
   height: 500px;
@@ -493,4 +390,110 @@ footer a {
 
 .errors {
   color: #721c24!important;
+}
+
+.mobile-intro {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .app {
+    max-width: 90vh;
+  }
+
+  .bg {
+    display: none;
+  }
+
+  .bg2 {
+    display: none;
+  }
+
+  .icon-bar {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 80px;
+  }
+
+  .fixed-top {
+    position: relative;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .mobile-intro {
+    display: block;
+    padding: 200px auto;
+    text-align: center;
+    font-family: "Optima", sans-serif;
+    height: 30vh;
+  }
+
+  .mobile-intro h1 {
+    padding-top: 10vh;
+  }
+
+  .about {
+    padding: 0 22px 40px 22px;
+  }
+
+  .about h2 {
+    font-size: 24px;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .modal-dialog {
+    width: 360px;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .modal-body img {
+    width: 300px;
+  }
+
+  .docs h5 {
+    font-size: 14px;
+  }
+
+  .projects-div {
+    margin-top: 0;
+  }
+
+  .projects-h2 {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .card{
+    width: 320px!important;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .contact-div {
+    padding: 100px 20px;
+  }
+
+  .form-group {
+    display: none;
+  }
 }

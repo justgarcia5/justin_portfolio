@@ -15,6 +15,10 @@ class Intro extends React.Component {
             <IntroText />
           </div>
         </div>
+        <div className="mobile-intro">
+          <h1>Justin Garcia</h1>
+          <h2>Web Developer</h2>
+        </div>
         <About />
         <div className="bg2"></div>
         <Projects />

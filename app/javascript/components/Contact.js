@@ -61,7 +61,7 @@ class Contact extends React.Component {
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
         <p className="contacts" >Fill out the form and send me a message or email me at <a href="mailto:justgarcia5@gmail.com" >justgarcia5@gmail.com</a>.</p>
-        <form className="from-group" onSubmit={this.handleSubmit}>
+        <form className="form-group" onSubmit={this.handleSubmit}>
           {responseOk &&
             <div className="container col-sm-12 m-auto">
               <div className="alert alert-success text-center">Message Sent!<br/>Thank you! I will respond as promply as possible.</div>
