@@ -95,7 +95,7 @@ class Contact extends React.Component {
           <button className="submit-btn mt-5" type="submit">SUBMIT</button>
         </form>
         <footer>
-          <div className="d-flex justify-content-center">
+          <div className="icons d-flex justify-content-center">
             <a href="https://www.facebook.com/justin.garcia.378199" className='text-decoration-none icon-foot p-2' target="_blank"><i className="fa fa-facebook"></i></a>
             <a href="https://twitter.com/Justgarcia85" className='text-decoration-none icon-foot p-2' target="_blank"><i className="fa fa-twitter"></i></a>
             <a href="https://github.com/justgarcia5" className='text-decoration-none icon-foot p-2' target="_blank"><i className="fa fa-github"></i></a>

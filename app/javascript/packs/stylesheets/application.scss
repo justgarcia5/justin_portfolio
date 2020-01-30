@@ -421,6 +421,7 @@ footer a {
     text-align: center;
     font-family: "Optima", sans-serif;
     height: 30vh;
+    background-color: rgb(153, 160, 91);
   }
 
   .mobile-intro h1 {
@@ -449,6 +450,14 @@ footer a {
     width: 300px;
   }
 
+  .docs-container {
+    padding-top: 60px;
+  }
+
+  .docs  {
+    text-decoration: none;
+  }
+
   .docs-title {
     font-size: 14px;
   }
@@ -460,6 +469,7 @@ footer a {
   .projects-h2 {
     font-size: 24px;
     padding: 0;
+    margin-top: 30px;
   }
 
   .card{
@@ -497,5 +507,9 @@ footer a {
 
   .profile-pic-div {
     text-align: center;
+  }
+
+  .icon-foot i {
+    font-size: 56px;
   }
 }

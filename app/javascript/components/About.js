@@ -40,7 +40,7 @@ function About() {
       </div>
 
       <div>
-        <Container className="text-center m-auto">
+        <Container className="docs-container text-center m-auto">
           <Row className="text-center">
             <Col xs={6} md={6}>
               <Resume />
