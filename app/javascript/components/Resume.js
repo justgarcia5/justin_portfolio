@@ -10,11 +10,11 @@ function Resume() {
         <h5>Resume</h5>
         <hr/>
         <br/>
-        <Image width={250} src={resume} thumbnail/>
+        <Image className="resume-img" width={250} src={resume} thumbnail/>
       </a>
 
       <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-lg" role="document">
+        <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-header">
               <button type="button" className="close" data-dismiss="modal" aria-label="Close">

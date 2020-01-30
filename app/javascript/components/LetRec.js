@@ -14,7 +14,7 @@ function LetRec() {
       </a>
 
       <div className="modal fade bd2-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-lg" role="document">
+        <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-header">
             <button type="button" className="close" data-dismiss="modal" aria-label="Close">

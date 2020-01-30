@@ -8,7 +8,7 @@ import App from './App'
 
 const NavBar = props => {
   return (
-    <div>
+    <div className="nav">
     {props.current_admin &&
       <div>
         <Router>
