@@ -48,9 +48,14 @@ class PicturesBg extends React.Component {
     ]
 
     return (
-      <div className="picture-bg container" id="picture-bg">
-        <Gallery photos={photos} id="picture-bg" />
-        <Gallery photos={photos2 } id="picture-bg" />
+      <div>
+        <div className="picture-bg container" id="picture-bg" >
+          <Gallery photos={photos}  id="picture-bg"/>
+          <Gallery photos={photos2 } id="picture-bg" />
+        </div>
+        <div className="profile-pic-div">
+          <img src={profilePic} className="profile-pic" />
+        </div>
       </div>
     );
   }

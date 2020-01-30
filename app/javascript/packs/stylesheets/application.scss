@@ -454,7 +454,7 @@ footer a {
   }
 
   .projects-div {
-    margin-top: 0;
+    margin: 0;
   }
 
   .projects-h2 {
@@ -484,5 +484,18 @@ footer a {
 
   .form-group {
     display: none;
+  }
+
+  #picture-bg {
+    display: none;
+  }
+
+  .profile-pic {
+    width: 370px;
+    padding: 30px;
+  }
+
+  .profile-pic-div {
+    text-align: center;
   }
 }
