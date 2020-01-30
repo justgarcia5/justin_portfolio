@@ -310,17 +310,6 @@ label {
   background: #BCBCBC;
 }
 
-/* .line {
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #8BC34A;
-  transition: ease .6s;
-} */
-
 .input:focus + .line-box .line {
   width: 100%;
 }
@@ -460,7 +449,7 @@ footer a {
     width: 300px;
   }
 
-  .docs h5 {
+  .docs-title {
     font-size: 14px;
   }
 

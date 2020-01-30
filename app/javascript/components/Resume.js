@@ -6,10 +6,10 @@ import resume from '../packs/images/documents/resume.png'
 function Resume() {
   return (
     <div className="mb-5 pb-5 text-center">
+      <h5 className="docs-title">Resume</h5>
+      <hr/>
+      <br/>
       <a className="docs" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-        <h5>Resume</h5>
-        <hr/>
-        <br/>
         <Image className="resume-img" width={250} src={resume} thumbnail/>
       </a>
 
