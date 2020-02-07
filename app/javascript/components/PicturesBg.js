@@ -1,12 +1,12 @@
 import React from "react"
 import Gallery from 'react-photo-gallery'
 
-import profilePic from '../packs/images/photos_bg/profile_pic.jpg'
-import roundTop from '../packs/images/photos_bg/round_top.jpeg'
-import slide2 from '../packs/images/photos_bg/slide2.jpg'
-import slide6 from '../packs/images/photos_bg/slide6.jpeg'
-import peru from '../packs/images/photos_bg/peru.jpeg'
-import raiders from '../packs/images/photos_bg/raiders.jpeg'
+import profilePic from '../images/photos_bg/profile_pic.jpg'
+import roundTop from '../images/photos_bg/round_top.jpeg'
+import slide2 from '../images/photos_bg/slide2.jpg'
+import slide6 from '../images/photos_bg/slide6.jpeg'
+import peru from '../images/photos_bg/peru.jpeg'
+import raiders from '../images/photos_bg/raiders.jpeg'
 
 class PicturesBg extends React.Component {
   render () {

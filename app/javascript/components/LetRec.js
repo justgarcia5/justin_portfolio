@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 
-import letRec from '../packs/images/documents/let_rec.png'
+import letRec from '../images/documents/let_rec.png'
 
 function LetRec() {
   return (
