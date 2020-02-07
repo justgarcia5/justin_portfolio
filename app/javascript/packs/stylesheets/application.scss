@@ -509,15 +509,19 @@ footer a {
 
   .profile-pic {
     width: 370px;
-    padding: 30px;
-    display: block;
+    padding: 25px;
   }
 
   .profile-pic-div {
     text-align: center;
+    display: block;
   }
 
   .icon-foot i {
     font-size: 56px;
+  }
+
+  .iframe {
+    width: 350px;
   }
 }

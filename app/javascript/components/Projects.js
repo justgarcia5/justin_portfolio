@@ -1,10 +1,8 @@
 import React from "react"
 
-import Recipe from '../packs/images/projects/recipe2.png'
-import Tool from '../packs/images/projects/toolshare.png'
-import Zeal from '../packs/images/projects/zeal.png'
-// import Blogit from '../packs/images/projects/blogit.png'
-
+import Recipe from '../images/projects/recipe2.png'
+import Tool from '../images/projects/toolshare.png'
+import Zeal from '../images/projects/zeal.png'
 
 class Projects extends React.Component {
   render () {

@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
-import Logo from '../../assets/images/logo.png'
+import Logo from '../images/logo.png'
 import App from './App'
 
 const NavBar = props => {
