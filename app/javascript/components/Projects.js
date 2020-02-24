@@ -19,7 +19,7 @@ class Projects extends React.Component {
                   <div className="overlay">
                     <h2>RecipeApp</h2>
                     <div className="d-flex justify-content-center mt-2">
-                      <a className="button info mr-3" href="#" target="_blank">Live Demo</a>
+                      <a className="button info mr-3" href="https://blooming-brushlands-16807.herokuapp.com/" target="_blank">Live Demo</a>
                       <a className="button info ml-3" href="https://github.com/justgarcia5/recipe-app" target="_blank">Code <i className="gh fa fa-github fa-lg"></i></a>
                     </div>
                     <div className="d-flex justify-content-center">
