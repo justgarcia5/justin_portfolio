@@ -17,7 +17,7 @@ function About() {
           <div className="col-sm mt-5">
             <h2 className="about-title">About</h2>
             <hr/>
-            <p className="mt-5 text-left">For the duration of my life I’ve have always been very artistic, whether it was drawing with pastels or using water colors, I have always seemed to have a vision of a finished product that was unique and that would stand out from the rest. Since becoming a Web Developer I’ve discovered that I was able to administer these same principles and allow myself to express my artistic side as a developer. With my work experience and my passion to live and breath coding, I believe that I would be a valuable addition to any team! </p>
+            <p className="mt-5 text-center">I am a web developer with two years experience building and creating responsive and high quality applications using React and Ruby on Rails. I have obtained a solid foundation and understanding of web development while attending and completing a Full-Stack bootcamp. Thereafter the bootcamp, I was an intern for a consultant company, Coding Zeal. During this time I gained experience and knowledge in working in an Agile Software Development process.</p>
           </div>
           <div className="col-sm mt-5">
           <h2 className="about-title">Skills</h2>
@@ -40,7 +40,7 @@ function About() {
         </div>
       </div>
 
-      <div>
+      {/* <div className="docs">
         <Container className="docs-container text-center m-auto">
           <Row className="text-center">
             <Col xs={6} md={6}>
@@ -51,7 +51,7 @@ function About() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 }
