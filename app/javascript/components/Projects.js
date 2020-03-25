@@ -10,11 +10,13 @@ class Projects extends React.Component {
     return (
       <div className="">
         <div className="projects-div" name="projects" id="projects">
-          <h2 className="projects-h2 text-center">My Work</h2>
-          <hr className="col-sm-4"/>
+          <Fade left delay={600}>
+            <h2 className="projects-h2 text-center">My Work</h2>
+            <hr className="col-sm-4"/>
+          </Fade>
           <div className="d-flex justify-content-center mt-5">
             <div className="row justify-content-center">
-              <Fade left delay={1000}>
+              <Fade left delay={400}>
                 <div className="card-col m-5">
                   <div className="card hovereffect" >
                     <img src={Recipe} className="card-img-top img-res26nsive" height={280}  alt="..."/>
@@ -42,7 +44,7 @@ class Projects extends React.Component {
                   </div>
                 </div>
               </Fade>
-              <Fade top delay={500}>
+              <Fade bottom delay={200}>
                 <div className="card-col m-5">
                   <div className="card hovereffect" >
                     <img src={Zeal} className="card-img-top" height={280}  alt="..."/>
@@ -70,7 +72,7 @@ class Projects extends React.Component {
                   </div>
                 </div>
               </Fade>
-              <Fade right delay={1000}>
+              <Fade right delay={400}>
                 <div className="card-col m-5">
                   <div className="card hovereffect" >
                     <img src={Tool} className="card-img-top" height={280}  alt="..."/>

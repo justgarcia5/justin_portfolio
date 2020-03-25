@@ -4,6 +4,10 @@
 
 @media only screen and (min-width: 600px) {
 
+  .fixed-top {
+    padding: 0;
+  }
+
   header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
@@ -107,7 +111,7 @@
   }
 
   .nav-logo {
-    width: 80px;
+    width: 60px;
   }
 
   .wrapper {
@@ -783,6 +787,7 @@
 
   .fixed-top {
     position: absolute;
+    padding: 0;
   }
 
   .navbar-nav {
