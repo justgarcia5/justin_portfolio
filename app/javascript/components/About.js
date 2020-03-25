@@ -17,7 +17,7 @@ function About() {
           <div className="col-sm mt-5">
             <h2 className="about-title">About</h2>
             <hr/>
-            <p className="mt-5 text-center">I am a web developer with two years experience building and creating responsive and high quality applications using React and Ruby on Rails. I have obtained a solid foundation and understanding of web development while attending and completing a Full-Stack bootcamp. Thereafter the bootcamp, I was an intern for a consultant company, Coding Zeal. During this time i gained experience and knowledge in working in an Agile Software Development process.</p>
+            <p className="mt-5 text-center">I am a web developer with two years experience building and creating responsive and high quality applications using React and Ruby on Rails. I have obtained a solid foundation and understanding of web development while attending and completing a Full-Stack bootcamp. Thereafter the bootcamp, I was an intern for a consultant company, Coding Zeal. During this time I gained experience and knowledge in working in an Agile Software Development process.</p>
           </div>
           <div className="col-sm mt-5">
           <h2 className="about-title">Skills</h2>
