@@ -27,10 +27,11 @@ function About() {
               <p>React</p>
               <p>Ruby on Rails</p>
               <p>Bootstrap</p>
-              <p>php</p>
               <p>HTML5/CSS3</p>
               <p>Postgresql</p>
-              <p>MySQL</p>
+              <p>AWS</p>
+              <p>Heroku</p>
+              <p>node.js</p>
             </div>
           </div>
           <div className="col-sm mt-5">

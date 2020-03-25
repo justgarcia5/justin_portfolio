@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
 .nav-logo {
   width: 80px;
@@ -51,7 +52,7 @@
 }
 
 .intro-text {
-  padding-top: 50vh;
+  padding-top: 30vh;
   color: white;
   text-align: center;
   position: relative;
@@ -65,7 +66,7 @@
 .about {
   color: rgb(75, 73, 73);
   text-align: center;
-  padding-top: 165px;
+  margin-top: 225px;
   padding-bottom: 165px;
   font-family: "Optima", sans-serif;
 }
@@ -389,10 +390,14 @@ footer a {
   display: none;
 }
 
+.mobile-header {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
   .app {
-    max-width: 90vh;
+    max-width: 100vh;
   }
 
   .bg {
@@ -408,25 +413,25 @@ footer a {
   }
 
   .nav-logo {
-    width: 80px;
+    width: 50px;
   }
 
   .fixed-top {
     position: relative;
   }
 
-  .nav {
-    justify-content: center;
-  }
+  // .nav {
+  //   justify-content: left;
+  // }
 
   .mobile-intro {
     display: block;
-    padding: 200px auto;
-    text-align: center;
-    font-family: "Optima", sans-serif;
-    height: 30vh;
-    background-color: #3f3f3f;
-    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    margin-top: 80px;
   }
 
   .mobile-intro h1 {
@@ -442,7 +447,7 @@ footer a {
   }
 
   .navbar-toggler {
-    display: none;
+    text-align: right;
   }
 
   .modal-dialog {
@@ -522,6 +527,6 @@ footer a {
   }
 
   .iframe {
-    width: 350px;
+    width: 310px;
   }
 }
