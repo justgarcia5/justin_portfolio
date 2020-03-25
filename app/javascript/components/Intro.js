@@ -16,10 +16,14 @@ class Intro extends React.Component {
     return (
       <div className="wrapper" name="intro" id="intro">
         <div className="bg">
+          <div className="stars"></div>
+          <div className="twinkling"></div>
+          <div className="clouds"></div>
           <div className="intro-text">
             <IntroText />
           </div>
         </div>
+
         <img src={Profile} className="mobile-intro"/>
         <div className="mobile-header" style={styles.titleText}>
           <h1>Justin Garcia</h1>

@@ -1,16 +1,10 @@
 import React from 'react';
-import Typical from 'react-typical'
 import { Fade } from 'react-reveal';
 import Tada from 'react-reveal/Tada';
 
 function introText() {
   return (
     <div className="container-fluid">
-      {/* <Typical
-        steps={['Hello!', 2000, 'My name is Justin Garcia and I am a Web Developer.', 1000]}
-        // loop={Infinity}
-        wrapper="p"
-      /> */}
       <div>
         <Tada>
           <h1 style={styles.section}>Hello!</h1>

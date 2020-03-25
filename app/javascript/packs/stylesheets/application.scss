@@ -1,6 +1,105 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 
+header {
+  background-color:rgba(33, 33, 33, 0.9);
+  color:#ffffff;
+  display:block;
+  font: 14px/1.3 Arial,sans-serif;
+  height:50px;
+  position:absolute;
+  z-index:5;
+  background-attachment: fixed;
+
+}
+h2{
+  margin-top: 30px;
+  text-align: center;
+}
+header h2{
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 80%;
+  text-align: center;
+}
+header a, a:visited {
+  text-decoration:none;
+  color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+z-index:0;
+}
+
+.twinkling{
+background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+z-index:-1;
+
+-moz-animation:move-twink-back 200s linear infinite;
+-ms-animation:move-twink-back 200s linear infinite;
+-o-animation:move-twink-back 200s linear infinite;
+-webkit-animation:move-twink-back 200s linear infinite;
+animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+  z-index:1;
+
+-moz-animation:move-clouds-back 200s linear infinite;
+-ms-animation:move-clouds-back 200s linear infinite;
+-o-animation:move-clouds-back 200s linear infinite;
+-webkit-animation:move-clouds-back 200s linear infinite;
+animation:move-clouds-back 200s linear infinite;
+}
+
 .nav-logo {
   width: 80px;
 }
@@ -10,13 +109,8 @@
 }
 
 .bg {
-  background-image: url("https://teneev.com/wp-content/uploads/2019/09/website-design.png");
   height: 90vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
 }
 
 .bg:before {
@@ -31,7 +125,7 @@
 }
 
 .bg2 {
-  background-image: url('https://miro.medium.com/max/3840/1*n2Kx9gwNfa9zkWMDBJU7bw.png');
+  background-image: url("https://www.itl.cat/pngfile/big/62-627400_olivia-wilde-tron-legacy-wallpaper-allwallpaper-in-tron.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -39,7 +133,6 @@
   background-size: cover;
   position: relative;
 }
-
 
 .bg2:before {
   content: '';
@@ -52,7 +145,7 @@
 }
 
 .intro-text {
-  padding-top: 30vh;
+  padding-top: 40vh;
   color: white;
   text-align: center;
   position: relative;
@@ -67,6 +160,7 @@
   color: rgb(75, 73, 73);
   text-align: center;
   margin-top: 225px;
+  padding-top: 120px;
   padding-bottom: 165px;
   font-family: "Optima", sans-serif;
 }
