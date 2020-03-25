@@ -7,12 +7,11 @@ function Resume() {
   return (
     <div className="mb-5 pb-5 text-center">
       <h5 className="docs-title">Resume</h5>
-      <hr/>
       <a className="docs" data-toggle="modal" data-target=".bd-example-modal-lg">
         <Image className="resume-img" width={250} src={resume} thumbnail/>
       </a>
 
-      <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div className="docs modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-header">

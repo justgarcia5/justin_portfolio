@@ -17,7 +17,7 @@ function introText() {
       </div>
       <div >
         <Fade left delay={4000}>
-          <h1 style={styles.section}>and I am a Web Developer . . .</h1>
+          <h1 style={styles.section}>and I am a Web Developer...</h1>
         </Fade>
       </div>
     </div>
@@ -30,6 +30,6 @@ const styles = {
   section: {
     margin: 16,
     fontSize: 70,
-    fontFamily: "Cinzel",
+    fontFamily: "Julius Sans One",
   }
 }

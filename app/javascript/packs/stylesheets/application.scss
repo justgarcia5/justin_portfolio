@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 
 @media only screen and (min-width: 600px) {
 
@@ -154,8 +155,9 @@
     color: rgb(75, 73, 73);
     text-align: center;
     margin-top: 30vh;
+    margin-bottom: 30vh;
     padding-top: 120px;
-    padding-bottom: 165px;
+    padding-bottom: 120px;
     font-family: "Optima", sans-serif;
   }
 
@@ -458,7 +460,6 @@
   }
 
   .docs:hover img {
-    opacity: 0.5;
     cursor: zoom-in;
   }
 
@@ -468,6 +469,10 @@
 
   .errors {
     color: #721c24!important;
+  }
+
+  .modal-backdrop {
+    z-index: 3
   }
 
   .mobile-intro {
@@ -692,11 +697,6 @@
     position: relative;
   }
 
-  .nav {
-    justify-content: right;
-    display: fixed!important;
-  }
-
   .mobile-intro {
     display: block;
     position: absolute;
@@ -719,30 +719,8 @@
     font-size: 24px;
   }
 
-  .navbar-toggler {
-    text-align: right;
-  }
-
-  .modal-dialog {
-    width: 360px;
-    text-align: center;
-    border-radius: 0;
-  }
-
-  .modal-body img {
-    width: 300px;
-  }
-
-  .docs-container {
-    padding-top: 60px;
-  }
-
   .docs  {
-    text-decoration: none;
-  }
-
-  .docs-title {
-    font-size: 14px;
+    display: none;
   }
 
   .projects-div {
@@ -803,7 +781,11 @@
     width: 310px;
   }
 
-  .nav {
-    display: fixed;
+  .fixed-top {
+    position: absolute;
+  }
+
+  .navbar-nav {
+    text-align: center;
   }
 }

@@ -47,7 +47,7 @@ export default Intro
 const styles = {
   titleText: {
     textAlign: 'center',
-    marginTop: '20vh',
+    marginTop: '30vh',
     color: 'white',
     fontFamily: "Cinzel",
   }
