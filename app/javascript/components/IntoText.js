@@ -30,6 +30,6 @@ const styles = {
   section: {
     margin: 16,
     fontSize: 70,
-    fontFamily: "Julius Sans One",
+    fontFamily: "Cinzel",
   }
 }
