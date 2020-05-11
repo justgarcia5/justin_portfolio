@@ -12,7 +12,7 @@ const NavBar = props => {
       <Router>
         <Navbar className="fixed-top" bg="white" expand="lg">
           <Nav.Link href="/" className="nav-link"><img className="nav-logo" src={Logo}/></Nav.Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto mr-2"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               {/* <Link smooth to="#intro" className="nav-link">Intro</Link> */}
@@ -31,9 +31,9 @@ const NavBar = props => {
       <Router>
         <Navbar className="fixed-top" bg="white" expand="lg">
           <Nav.Link href="/" className="nav-link"><img className="nav-logo" src={Logo}/></Nav.Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto mr-2" />
+          <Navbar.Collapse id="basic-navbar-nav" className="mr-2">
+            <Nav className="ml-auto mr-2">
               {/* <Link smooth to="#intro" className="nav-link">Intro</Link> */}
               <HashLink smooth to="#about" className="nav-link">About</HashLink>
               <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
