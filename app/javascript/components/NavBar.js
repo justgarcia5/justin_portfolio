@@ -31,7 +31,7 @@ const NavBar = props => {
       <Router>
         <Navbar className="fixed-top" bg="white" expand="lg">
           <Nav.Link href="/" className="nav-link"><img className="nav-logo" src={Logo}/></Nav.Link>
-          <Navbar.Toggle pullRight aria-controls="basic-navbar-nav" className="ml-auto" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               {/* <Link smooth to="#intro" className="nav-link">Intro</Link> */}
