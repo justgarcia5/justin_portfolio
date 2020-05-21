@@ -31,7 +31,7 @@ function About() {
               <p>Postgresql</p>
               <p>AWS</p>
               <p>Heroku</p>
-              <p>node.js</p>
+              <p>Docker</p>
             </div>
           </div>
           <div className="col-sm mt-5">
