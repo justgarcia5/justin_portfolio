@@ -39,7 +39,7 @@ class Projects extends React.Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">Recipe App</h5>
-                      <p className="card-text">RecipeApp is an application built using a free recipe API that I used to be the heart of this app. RecipeApp allows users to search recipes, save favorite recipes, and blog about food, recipes, etc. This project gave me the opportunity to work with JSON, go futher in debth with React Hooks, and to expand my knowledge using Ruby on Rails. </p>
+                      <p className="card-text">Recipe App was built using React connected to a Ruby on Rails backend. I chose to use a Postgresql database and implement Bootstrap for responsive, mobile-first front-end web development. RecipeApp allows users to search recipes, save favorite recipes, and blog about food, recipes, etc. This project gave me the opportunity to work with JBuilder and go futher in debth with using and understanding React Hooks. </p>
                     </div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ class Projects extends React.Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">Initiative Tracker</h5>
-                      <p className="card-text">During my internship with Coding Zeal, I participated in building an Initiative Tracker from the ground up. This application was build to help users set and accomplish initiatives and allow interaction between other users to help achieve these initiatives. During this time I was involved in the iteration planning meetings with the client, building and delivering user stories and features, implementing RSpec for those features, and frontend and backend development.  </p>
+                      <p className="card-text">This application was build to help users set and accomplish initiatives and allow interaction between other users to help achieve these initiatives. The Initiative Tracker was built using Ruby on Rails with a Postqresql database. Every feature is provided and delivered with Rspec tesing and all code is analyzed and formatted with RuboCop. </p>
                     </div>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ class Projects extends React.Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">ToolShare</h5>
-                      <p className="card-text">ToolShare is an application built to connect users looking to rent that one time tool and for users looking to make some cash renting out tools that never get any use. This application was built by myself and three other developers as a final project for the three month boot camp that I attended and completed. During this time I used all of the tools and skills that I aquired throughout this program that include React, Ruby on Rails, TDD, SCRUM, PostgreSQL, and experience working in pairs, sprints, and mobs.  </p>
+                      <p className="card-text">ToolShare is an application built to connect users looking to rent that one time tool and for users looking to make some cash renting out tools that never get any use. This application was built using React-Rails with a Postgresql database. I implemented a GoogleMaps API for users to seach and list by location and a SMS feature for users.  </p>
                     </div>
                   </div>
                 </div>
