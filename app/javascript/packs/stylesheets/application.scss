@@ -55,23 +55,6 @@
     to {background-position:-10000px 5000px;}
   }
 
-  @keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-  }
-  @-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-  }
-
   .stars, .twinkling, .clouds {
     position: absolute;
     top:0;
@@ -89,25 +72,13 @@
   }
 
   .twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:transparent url(http://www.script-tutorials.com/demos/360) repeat top center;
   z-index:-1;
-
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
   -o-animation:move-twink-back 200s linear infinite;
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
-  }
-
-  .clouds{
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-    z-index:1;
-
-  -moz-animation:move-clouds-back 200s linear infinite;
-  -ms-animation:move-clouds-back 200s linear infinite;
-  -o-animation:move-clouds-back 200s linear infinite;
-  -webkit-animation:move-clouds-back 200s linear infinite;
-  animation:move-clouds-back 200s linear infinite;
   }
 
   .nav-logo {
@@ -124,7 +95,7 @@
   }
 
   .bg2 {
-    background-image: url("https://www.itl.cat/pngfile/big/62-627400_olivia-wilde-tron-legacy-wallpaper-allwallpaper-in-tron.jpg");
+    background-image: url("https://static.kent.ac.uk/nexus/ems/818.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -145,14 +116,6 @@
 
   .intro-text {
     padding-top: 40vh;
-    color: white;
-    text-align: center;
-    position: relative;
-  }
-
-  .intro-text h1 {
-    font-size: 45px;
-    font-family: "Optima", sans-serif;
   }
 
   .about {
@@ -789,4 +752,56 @@
   .navbar-nav {
     text-align: center;
   }
+}
+
+
+.star-wars {
+  /* Flexbox to center the entire element on the screen */
+  display: flex;
+  justify-content: center;
+  /* This is a magic number based on the context in which this snippet is used and effects the perspective */
+  height: 800px;
+  /* This sets allows us to transform the text on a 3D plane, and is somewhat a magic number */
+  perspective: 400px;
+  /* The rest is totally up to personal styling preferences */
+  color: #feda4a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 250%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.crawl {
+  /* Position the element so we can adjust the top property in the animation */
+  position: relative;
+  /* Defines the skew origin at the very center when we apply transforms on the animation */
+  // transform-origin: 50% 100%;
+  /* Adds the crawl animation, which plays for one minute */
+  animation: crawl 60s linear;
+}
+
+@keyframes crawl {
+  0% {
+    /* The element starts below the screen */
+    top: 0;
+    /* Rotate the text 20 degrees but keep it close to the viewer */
+    transform: rotateX(20deg) translateZ(0);
+  }
+  100% {
+    /* This is a magic number, but using a big one to make sure the text is fully off the screen at the end */
+    top: -6000px;
+    /* Slightly increasing the rotation at the end and moving the text far away from the viewer */
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
 }

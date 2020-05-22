@@ -1,12 +1,4 @@
-import React, { useState } from "react"
-import {
-  Container,
-  Col,
-  Row
-} from 'react-bootstrap';
-
-import Resume from '../components/Resume'
-import LetRec from '../components/LetRec'
+import React from "react"
 
 function About() {
 
@@ -35,23 +27,10 @@ function About() {
             </div>
           </div>
           <div className="col-sm mt-5">
-            <iframe className="iframe" src="https://open.spotify.com/embed/album/5eBz5hZihObXdRv0AwH5zB&view=coverart" width="340" height="450" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/album/0RkRavz2FtCFuFe3U9iEZE" width="340" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
-
-      {/* <div className="docs">
-        <Container className="docs-container text-center m-auto">
-          <Row className="text-center">
-            <Col xs={6} md={6}>
-              <Resume />
-            </Col>
-            <Col xs={6} md={6}>
-              <LetRec />
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
     </div>
   );
 }
