@@ -56,7 +56,6 @@ class Contact extends React.Component {
 
   render () {
     const { contact, responseOk, errors } = this.state
-    // console.log(errors, responseOk)
     return (
       <div className="contact-div" name="contact" id="contact">
         <h2>Let's Chat!</h2>
