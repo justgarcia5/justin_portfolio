@@ -104,7 +104,7 @@ export default function Projects() {
                   <div className="overlay">
                     <h2>TradeUp</h2>
                     <div className="d-flex justify-content-center mt-4">
-                      <a className="button info mr-3" href="http://trade-up-load-balancer-1170992610.us-east-1.elb.amazonaws.com" target="_blank">Live Demo</a>
+                      <a className="button info mr-3" href="https://alltraderup.com" target="_blank">Live Demo</a>
                       <a className="button info" href="https://github.com/justgarcia5/trade-up" target="_blank">Code <i className="gh fa fa-github fa-lg"></i></a>
                     </div>{
                     <div className="d-flex justify-content-center">
