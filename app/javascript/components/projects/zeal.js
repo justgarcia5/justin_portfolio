@@ -60,7 +60,6 @@ const Zeal = props => {
         </div>
         <div className="card-body">
           <h5 className="card-title mt-4">Initiative Tracker</h5>
-          {/* <p className="card-text">This application was build to help users set and accomplish initiatives and allow interaction between other users to help achieve these initiatives. The Initiative Tracker was built using Ruby on Rails with a Postqresql database. Every feature is provided and delivered with Rspec tesing and all code is analyzed and formatted with RuboCop. </p> */}
         </div>
       </div>
     </div>
