@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-import RespImage from '../../images/projects/responsive.png'
+import Tech from '../../images/projects/tech_talk'
 
-const Responsive = props => {
+const TechTalk = props => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,14 +12,12 @@ const Responsive = props => {
   return(
     <div className="card-col m-5">
       <div className="card hovereffect" >
-        <img src={RespImage} className="card-img-top" height={280}  alt="..."/>
+        <img src={Tech} className="card-img-top" height={280}  alt="..."/>
         <div className="overlay">
           <div className="d-flex justify-content-center mt-5">
             <Button className="btn btn-success mx-2 mt-5" onClick={handleShow}>
               Learn More
             </Button>
-            <Button className="btn btn-danger mx-2 mt-5" style={props.styles.githubButton} href="https://github.com/justgarcia5/trade-up" target="_blank">
-              Code <i className="gh fa fa-github fa-lg"></i></Button>
             <Modal
               show={show}
               onHide={handleClose}
@@ -28,19 +26,19 @@ const Responsive = props => {
               centered
             >
               <Modal.Header closeButton className="text-center">
-                <Modal.Title >Responsive JS and CSS</Modal.Title>
+                <Modal.Title >Tech Talk React Lifecycle Methods</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <h5>Date:</h5>
-                <p className="ml-4">October 2019</p>
+                <p className="ml-4">January 2019</p>
                 <h5>Description:</h5>
-                <p className="ml-4">I built this responsive page using a JavaScript, HTML, and CSS file. This was a task given to me to convert a PSD file into code and by implementing a mobile and desktop view.</p>
+                <p className="ml-4">During the course of the three month bootcamp I attended, I was given the task of finding and giving a tech talk on any relevant technologies that interested me and present it to my cohort. I chose to do my presentation on React Life Cycle Methods. Check it out!</p>
                 <h5>Technologies:</h5>
-                <p className="ml-4">JavaScript, HTML, CSS</p>
+                <p className="ml-4">React</p>
               </Modal.Body>
               <Modal.Footer>
-                <Button className="btn btn-danger mx-2" style={props.styles.githubButton} href="https://github.com/justgarcia5/responsive-css" target="_blank">
-                  Code <i className="gh fa fa-github fa-lg"></i>
+                <Button className="btn btn-success mx-2" href="https://docs.google.com/presentation/d/1nVaZyaeBd_OA_bQQ9ULTK5ndD2DlmumNYvp1YcXAgtk/edit#slide=id.p" target="_blank">
+                  View
                 </Button>
                 <Button variant="secondary" onClick={handleClose}>
                   Close [X]
@@ -50,11 +48,11 @@ const Responsive = props => {
           </div>
         </div>
         <div className="card-body">
-          <h5 className="card-title mt-4">Responsive JS and CSS</h5>
+          <h5 className="card-title mt-4">Tech Talk React Lifecycle Methods</h5>
         </div>
       </div>
     </div>
   )
 }
 
-export default Responsive;
+export default TechTalk;

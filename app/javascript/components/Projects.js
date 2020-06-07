@@ -5,7 +5,7 @@ import Zeal from '../components/projects/zeal'
 import Tool from '../components/projects/tool'
 import TradeUp from '../components/projects/trade_up'
 import Responsive from '../components/projects/responsive'
-import Tech from '../images/projects/tech_talk.png'
+import TechTalk from '../components/projects/tech_talk'
 
 export default function Projects() {
   return (
@@ -23,6 +23,7 @@ export default function Projects() {
               <Zeal styles={styles} />
               <Tool styles={styles} />
               <Responsive styles={styles} />
+              <TechTalk styles={styles} />
             </div>
           </Fade>
         </div>
