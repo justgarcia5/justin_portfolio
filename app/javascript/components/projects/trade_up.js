@@ -31,7 +31,7 @@ const TradeUp = props => {
               centered
             >
               <Modal.Header closeButton className="text-center">
-                <Modal.Title >TradeUP</Modal.Title>
+                <Modal.Title >TradeUp</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <h5>Date:</h5>

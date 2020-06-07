@@ -34,7 +34,7 @@ const Responsive = props => {
                 <h5>Date:</h5>
                 <p className="ml-4">October 2019</p>
                 <h5>Description:</h5>
-                <p className="ml-4">I built this responsive page using a JavaScript, HTML, and CSS file. This was a tast to convert a PSD file into code and by implementing a mobile and desktop view.</p>
+                <p className="ml-4">I built this responsive page using a JavaScript, HTML, and CSS file. This was a task to convert a PSD file into code and by implementing a mobile and desktop view.</p>
                 <h5>Technologies:</h5>
                 <p className="ml-4">JavaScript, HTML, CSS</p>
               </Modal.Body>
