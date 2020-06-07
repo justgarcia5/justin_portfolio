@@ -102,8 +102,8 @@ class Contact extends React.Component {
             <a href="mailto:justgarcia5@gmail.com" className='text-decoration-none icon-foot p-2' target="_blank"><i className="fa fa-envelope"></i></a>
           </div>
           <br/>
-          <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> | Culver City, Ca</p>
-          <p><a href="admins/sign_in" >Admin</a></p>
+          <p><a href="mailto:justgarcia5@gmail.com">Justin Garcia</a> © 2020 | Culver City, Ca</p>
+          <a className="admin-link" href="admins/sign_in" >Admin</a>
         </footer>
       </div>
     );

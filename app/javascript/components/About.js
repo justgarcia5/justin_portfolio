@@ -27,7 +27,7 @@ function About() {
             </div>
           </div>
           <div className="col-sm mt-5">
-          <iframe src="https://open.spotify.com/embed/album/0RkRavz2FtCFuFe3U9iEZE" width="340" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/album/0RkRavz2FtCFuFe3U9iEZE" width="340" height="480" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
