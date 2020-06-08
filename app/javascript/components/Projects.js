@@ -6,6 +6,7 @@ import Tool from '../components/projects/tool'
 import TradeUp from '../components/projects/trade_up'
 import Responsive from '../components/projects/responsive'
 import TechTalk from '../components/projects/tech_talk'
+import Overtime from '../components/projects/overtime'
 
 export default function Projects() {
   return (
@@ -19,6 +20,7 @@ export default function Projects() {
           <Fade left delay={200}>
             <div className="row justify-content-center">
               <TradeUp styles={styles} />
+              <Overtime styles={styles} />
               <RecipeApp styles={styles} />
               <Zeal styles={styles} />
               <Tool styles={styles} />

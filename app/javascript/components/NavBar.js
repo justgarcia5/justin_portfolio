@@ -1,13 +1,14 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 import Logo from '../images/logo.png'
+import Resume from '../images/documents/resume.png'
 
 const NavBar = props => {
   return (
-    <div className="nav">
+    <div>
     {props.current_admin &&
       <Router>
         <Navbar className="fixed-top" bg="white" expand="lg">
@@ -29,12 +30,12 @@ const NavBar = props => {
 
     {!props.current_admin &&
       <Router>
-        <Navbar className="fixed-top" bg="white" expand="lg">
+        <Navbar className="fixed-top px-5" bg="white" expand="lg">
           <Nav.Link href="/" className="nav-link"><img className="nav-logo" src={Logo}/></Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto mr-2" />
           <Navbar.Collapse id="basic-navbar-nav" className="mr-2">
             <Nav className="ml-auto mr-2">
-              {/* <Link smooth to="#intro" className="nav-link">Intro</Link> */}
+              <Link to={Resume} className="nav-link" target='_blank' >Resume</Link>
               <HashLink smooth to="#about" className="nav-link">About</HashLink>
               <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
               <HashLink smooth to="#contact" className="nav-link">Contact</HashLink>
@@ -45,6 +46,12 @@ const NavBar = props => {
     }
     </div>
   )
+}
+
+const styles = {
+  container: {
+    width: '92vw'
+  }
 }
 
 export default NavBar

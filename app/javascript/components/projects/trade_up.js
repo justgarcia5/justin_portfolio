@@ -35,7 +35,7 @@ const TradeUp = props => {
               </Modal.Header>
               <Modal.Body>
                 <h5>Date:</h5>
-                <p className="ml-4">June 2020</p>
+                <p className="ml-4">June 2020 - Current</p>
                 <h5>Description:</h5>
                 <p className="ml-4">TradeUp is sort of a spin off of OfferUp, but only TradeUp! I built this to keep developing my skills in React and Rails and to also work in Agile.</p>
                 <h5>My Contributions:</h5>
