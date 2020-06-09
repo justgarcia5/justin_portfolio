@@ -19,13 +19,13 @@ export default function Projects() {
         <div className="d-flex justify-content-center mt-5">
           <Fade left delay={200}>
             <div className="row justify-content-center">
-              <TradeUp styles={styles} />
-              <Overtime styles={styles} />
-              <RecipeApp styles={styles} />
-              <Zeal styles={styles} />
-              <Tool styles={styles} />
-              <Responsive styles={styles} />
-              <TechTalk styles={styles} />
+              <TradeUp styles={styles} class="project-cards"/>
+              <Overtime styles={styles} class="project-cards" />
+              <RecipeApp styles={styles} class="project-cards" />
+              <Zeal styles={styles} class="project-cards" />
+              <Tool styles={styles} class="project-cards" />
+              <Responsive styles={styles} class="project-cards" />
+              <TechTalk styles={styles} class="project-cards" />
             </div>
           </Fade>
         </div>
@@ -39,5 +39,8 @@ const styles = {
     backgroundColor: '#F1502F',
     paddingLeft: 14,
     paddingRight: 14,
+  },
+  cards: {
+    boxShadow: '5px 10px'
   }
 }

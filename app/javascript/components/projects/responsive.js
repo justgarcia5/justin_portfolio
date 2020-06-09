@@ -18,7 +18,7 @@ const Responsive = props => {
             <Button className="btn btn-success mx-2 mt-5" onClick={handleShow}>
               Learn More
             </Button>
-            <Button className="btn btn-danger mx-2 mt-5" style={props.styles.githubButton} href="https://github.com/justgarcia5/trade-up" target="_blank">
+            <Button className="btn btn-danger mx-2 mt-5" style={props.styles.githubButton} href="https://github.com/justgarcia5/responsive-css" target="_blank">
               Code <i className="gh fa fa-github fa-lg"></i></Button>
             <Modal
               show={show}
@@ -28,7 +28,7 @@ const Responsive = props => {
               centered
             >
               <Modal.Header closeButton className="text-center">
-                <Modal.Title >Responsive JS and CSS</Modal.Title>
+                <Modal.Title >Responsive CSS</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <h5>Date:</h5>
@@ -50,7 +50,7 @@ const Responsive = props => {
           </div>
         </div>
         <div className="card-body">
-          <h5 className="card-title mt-4">Responsive JS and CSS</h5>
+          <h5 className="card-title mt-4">Responsive CSS</h5>
         </div>
       </div>
     </div>
