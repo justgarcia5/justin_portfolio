@@ -23,7 +23,6 @@ const TechTalk = props => {
               onHide={handleClose}
               size="lg"
               aria-labelledby="contained-modal-title-vcenter"
-              centered
             >
               <Modal.Header closeButton className="text-center">
                 <Modal.Title >Tech Talk React Lifecycle Methods</Modal.Title>

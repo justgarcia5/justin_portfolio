@@ -12,12 +12,12 @@ export default function Projects() {
   return (
     <div className="">
       <div className="projects-div" name="projects" id="projects">
-        <Fade right delay={200}>
+        {/* <Fade right delay={200}> */}
           <h2 className="projects-h2 text-center">My Work</h2>
           <hr className="col-sm-4"/>
-        </Fade>
+        {/* </Fade> */}
         <div className="d-flex justify-content-center mt-5">
-          <Fade left delay={200}>
+          {/* <Fade left delay={200}> */}
             <div className="row justify-content-center">
               <TradeUp styles={styles} class="project-cards"/>
               <Overtime styles={styles} class="project-cards" />
@@ -27,7 +27,7 @@ export default function Projects() {
               <Responsive styles={styles} class="project-cards" />
               <TechTalk styles={styles} class="project-cards" />
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </div>
