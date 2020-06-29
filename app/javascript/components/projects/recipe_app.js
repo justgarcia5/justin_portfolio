@@ -27,8 +27,7 @@ const RecipeApp = props => {
               show={show}
               onHide={handleClose}
               size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
+              id="modal"
             >
               <Modal.Header>
                 <Modal.Title >Recipe App</Modal.Title>

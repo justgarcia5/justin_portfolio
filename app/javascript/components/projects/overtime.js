@@ -27,8 +27,8 @@ const Overtime = props => {
               show={show}
               onHide={handleClose}
               size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
+              aria-labelledby="example-modal-sizes-title-lg"
+              id="modal"
             >
               <Modal.Header>
                 <Modal.Title >Overtime App</Modal.Title>

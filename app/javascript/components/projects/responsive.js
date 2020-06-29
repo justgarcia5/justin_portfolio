@@ -24,8 +24,8 @@ const Responsive = props => {
               show={show}
               onHide={handleClose}
               size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
+              aria-labelledby="example-modal-sizes-title-lg"
+              id="modal"
             >
               <Modal.Header closeButton className="text-center">
                 <Modal.Title >Responsive CSS</Modal.Title>

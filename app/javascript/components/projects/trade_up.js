@@ -28,6 +28,7 @@ const TradeUp = props => {
               onHide={handleClose}
               size="lg"
               aria-labelledby="example-modal-sizes-title-lg"
+              id="modal"
             >
               <Modal.Header closeButton className="text-center">
                 <Modal.Title >TradeUp</Modal.Title>
