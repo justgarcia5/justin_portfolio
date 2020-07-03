@@ -24,6 +24,7 @@ export default function Surfshop(props) {
               show={show}
               onHide={handleClose}
               size="lg"
+
               id="modal"
             >
               <Modal.Header>
