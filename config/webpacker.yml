@@ -85,7 +85,7 @@ test:
 
 staging:
   <<: *default
-  compile: false
+  compile: true
 
 production:
   <<: *default

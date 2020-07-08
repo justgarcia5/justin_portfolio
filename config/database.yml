@@ -7,7 +7,7 @@ default: &default
 
 development:
   <<: *default
-  database: justin_portfolio_development
+  database: 'justin_portfolio_development'
 
 test:
   <<: *default
@@ -22,10 +22,4 @@ staging:
   database: <%= ENV['POSTGRESQL_DB'] %>
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  host: <%= ENV['POSTGRESQL_HOST'] %>
-  username: <%= ENV['POSTGRESQL_USERNAME'] %>
-  password: <%= ENV['POSTGRESQL_PASSWORD'] %>
-  pool: 5
-  database: <%= ENV['POSTGRESQL_DB'] %>
+  <<: *default

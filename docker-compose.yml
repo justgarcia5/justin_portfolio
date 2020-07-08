@@ -21,17 +21,11 @@ services:
 
   web:
     build: .
-    # command: ./entrypoint.sh
     ports:
       - "8080:8080"
     depends_on:
       - db
       - 'redis'
-    environment:
-      DATABASE_HOST: db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: justin_portfolio_development
 
 volumes:
   redis:
