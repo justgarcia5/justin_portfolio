@@ -1,4 +1,5 @@
 import React from "react"
+import { ReCaptcha } from 'react-recaptcha-google'
 
 import Errors from './Errors'
 
@@ -10,7 +11,29 @@ class Contact extends React.Component {
       message: ''
     },
     responseOk: false,
-    errors: null
+    errors: null,
+    onLoadRecaptcha: this.onLoadRecaptcha,
+    verifyCallback: this.verifyCallback
+  }
+
+  componentDidMount() {
+    if (this.captchaDemo) {
+        console.log("started, just a second...")
+        this.captchaDemo.reset();
+        this.captchaDemo.execute();
+    }
+  }
+
+  onLoadRecaptcha() {
+      if (this.captchaDemo) {
+          this.captchaDemo.reset();
+          this.captchaDemo.execute();
+      }
+  }
+
+  verifyCallback(recaptchaToken) {
+    // Here you will get the final recaptchaToken!!!
+    console.log(recaptchaToken, "<= your recaptcha token")
   }
 
   handleSubmit = (e) => {
@@ -68,7 +91,7 @@ class Contact extends React.Component {
           }
           <Errors errors={errors} />
           <label>
-            <p className="label-txt">ENTER YOUR NAME</p>
+            <p className="label-txt p-2">ENTER YOUR NAME</p>
             <input type="text form-control" className="input" name="name" onChange={this.handleChange} value={contact.name}/>
             <div className="line-box">
               <div className="line"></div>
@@ -76,7 +99,7 @@ class Contact extends React.Component {
           </label>
           <br/>
           <label>
-            <p className="label-txt">ENTER YOUR EMAIL</p>
+            <p className="label-txt p-2">ENTER YOUR EMAIL</p>
             <input type="text" className="input" name="email" onChange={this.handleChange} value={contact.email}/>
             <div className="line-box">
               <div className="line"></div>
@@ -84,12 +107,22 @@ class Contact extends React.Component {
           </label>
           <br/>
           <label>
-            <p className="label-txt">ENTER YOUR MESSAGE</p>
+            <p className="label-txt p-2">ENTER YOUR MESSAGE</p>
             <textarea type="text" className="input" name="message" onChange={this.handleChange} value={contact.message}/>
             <div className="line-box">
               <div className="line"></div>
             </div>
           </label>
+          <br/>
+          <ReCaptcha
+            className="g-recaptcha"
+            render="explicit"
+            elementId="recaptcha"
+            sitekey="6LeHzrQZAAAAAN_s9w5uReYzVKpt9yZmIWh9lCY6"
+            type="audio"
+            onloadCallback={this.onLoadRecaptcha}
+            verifyCallback={this.verifyCallback}
+          />
           <br/>
           <button className="submit-btn mt-5" type="submit">SUBMIT</button>
         </form>

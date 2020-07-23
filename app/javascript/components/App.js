@@ -1,4 +1,5 @@
 import React from "react"
+import { loadReCaptcha } from 'react-recaptcha-google'
 
 import Zoom from 'react-reveal/Zoom';
 import PicturesBg from "./PicturesBg"
@@ -9,6 +10,9 @@ import Projects from './Projects'
 import StickyBar from '../components/StickyBar'
 
 class App extends React.Component {
+  componentDidMount() {
+    loadReCaptcha();
+  }
   render () {
     return (
       <div className="app">

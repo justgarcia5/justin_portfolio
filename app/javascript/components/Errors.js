@@ -3,9 +3,15 @@ import React from 'react'
 class Errors extends React.Component{
   render(){
     const { errors } = this.props
-    console.log(errors)
+
+    const styles = {
+      errorDiv: {
+        top: "-33px"
+      }
+    }
+
     return(
-      <div className="container col-sm-12 m-auto">
+      <div className="container col-sm-12" style={styles.errorDiv}>
         {errors &&
           <div className="alert alert-danger text-left">
             <h2 className="text-left errors">Errors:</h2>
