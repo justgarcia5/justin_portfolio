@@ -118,7 +118,6 @@ class Contact extends React.Component {
             className="g-recaptcha"
             render="explicit"
             elementId="recaptcha"
-            sitekey="6LeHzrQZAAAAAN_s9w5uReYzVKpt9yZmIWh9lCY6"
             type="audio"
             onloadCallback={this.onLoadRecaptcha}
             verifyCallback={this.verifyCallback}
