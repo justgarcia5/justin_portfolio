@@ -114,14 +114,14 @@ class Contact extends React.Component {
             </div>
           </label>
           <br/>
-          <ReCaptcha
+          {/* <ReCaptcha
             className="g-recaptcha"
             render="explicit"
             elementId="recaptcha"
             type="audio"
             onloadCallback={this.onLoadRecaptcha}
             verifyCallback={this.verifyCallback}
-          />
+          /> */}
           <br/>
           <button className="submit-btn mt-5" type="submit">SUBMIT</button>
         </form>

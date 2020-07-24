@@ -2,12 +2,14 @@ import React from "react"
 
 import IntroText from '../components/IntoText'
 import Profile from '../images/photos_bg/profile_pic.jpg'
+import jporthead from '../images/portfolio.jpg'
 
 class Intro extends React.Component {
   render () {
     return (
       <div className="wrapper" name="intro" id="intro">
-        <div className="bg">
+        <img src={jporthead} className="landing"/>
+        {/* <div className="bg">
           <div className="stars"></div>
           <div className="twinkling"></div>
           <div className="clouds"></div>
@@ -19,7 +21,7 @@ class Intro extends React.Component {
         <div className="mobile-header" style={styles.titleText}>
           <h1>Justin Garcia</h1>
           <h2>Web Developer</h2>
-        </div>
+        </div> */}
       </div>
     );
   }

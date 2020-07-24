@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import './header';
 
 @media only screen and (min-width: 600px) {
+
   * {
     font-family: 'Pathway Gothic One', sans-serif;
   }
@@ -740,15 +742,9 @@
 
   .contact-div {
     padding: 100px 20px;
-
-
   }
 
   .form-group {
-    display: none;
-  }
-
-  #picture-bg {
     display: none;
   }
 
