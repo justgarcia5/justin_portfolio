@@ -250,6 +250,7 @@
     color: white;
     font-size: 26px;
     margin: 10px 4px;
+
   }
 
   .icon-bar a:hover {
@@ -260,9 +261,16 @@
 
   .icon-foot i {
     font-size: 30px;
+    text-decoration: none;
+
   }
 
-  .icon-foot i:hover {
+  .icons a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .icons a:hover {
     color: rgb(172, 171, 171);
   }
 
@@ -271,8 +279,8 @@
     color: white;
   }
 
-  .twitter {
-    background: #55ACEE;
+  .codepen {
+    background: #131417;
     color: white;
   }
 
