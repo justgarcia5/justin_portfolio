@@ -7,6 +7,7 @@ import TradeUp from '../components/projects/trade_up'
 import Responsive from '../components/projects/responsive'
 import TechTalk from '../components/projects/tech_talk'
 import Overtime from '../components/projects/overtime'
+import Tictactoe from '../components/projects/tictactoe'
 import Surfshop from '../components/projects/surfshop'
 
 export default function Projects() {
@@ -26,6 +27,7 @@ export default function Projects() {
               <RecipeApp styles={styles} class="project-cards" />
               <Zeal styles={styles} class="project-cards" />
               <Tool styles={styles} class="project-cards" />
+              <Tictactoe styles={styles} class="project-cards" />
               <Responsive styles={styles} class="project-cards" />
               <TechTalk styles={styles} class="project-cards" />
             </div>
