@@ -46,24 +46,46 @@
     background-color: ghostwhite;
   }
 
-  h2{
-    margin-top: 30px;
-    text-align: center;
-  }
-  header h2{
-    font-size: 22px;
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 80%;
-    text-align: center;
-  }
-  header a, a:visited {
-    text-decoration:none;
-    color:#fcfcfc;
+
+  // header h2{
+  //   font-size: 22px;
+  //   margin: 0 auto;
+  //   padding: 10px 0;
+  //   width: 80%;
+  //   text-align: center;
+  // }
+  // header a, a:visited {
+  //   text-decoration:none;
+  //   color:#fcfcfc;
+  // }
+
+  // #g-recaptcha {
+  //   display: inline-block;
+  // }
+
+  #intro:before {
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index: 2;
+    background:linear-gradient(to right,rgba(64, 0, 255, 0.363),rgba(255, 0, 234, 0.178));
   }
 
-  #g-recaptcha {
-    display: inline-block;
+  .video {
+    width: 100%
+  }
+
+  #intro {
+    left: 0%;
+    top: -195px;
+    height: 125vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
   }
 
   .bg2 {
@@ -87,13 +109,31 @@
   }
 
   .intro-text {
-    padding-top: 40vh;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    top: 600px;
+    font-size: 125px;
+    text-shadow: rgb(49, 49, 49) 5px 0 35px;
+    font-weight: bolder;
+    color: rgb(223, 223, 223);
+  }
+
+  .intro-title {
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    top: 600px;
+    font-size: 85px;
+    text-shadow: rgb(49, 49, 49) 5px 0 35px;
+    font-weight: bolder;
+    color: rgb(223, 223, 223);
   }
 
   .about {
     color: rgb(75, 73, 73);
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 100vh;
     margin-bottom: 10vh;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -444,12 +484,59 @@
     font-family: 'Pathway Gothic One', sans-serif;
   }
 
+  #intro:before {
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:1;
+    background: linear-gradient(to right,rgba(64, 0, 255, 0.281),rgba(255, 0, 234, 0.11));
+  }
+
+  #intro {
+    left: 0%;
+    top: -195px;
+    height: 138vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+  .video {
+    // position: relative;
+    height: 138vh;
+  }
+
   .about {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 55px;
+    margin-top: 800px;
     padding-top: 120px;
     padding-bottom: 165px;
+  }
+
+  .intro-text {
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    top: 600px;
+    text-shadow: rgb(49, 49, 49) 5px 0 35px;
+    font-size: 55px;
+    color: white;
+  }
+
+  .intro-title {
+    text-align: center;
+    z-index: 3;
+    position: relative;
+    top: 600px;
+    text-shadow: rgb(49, 49, 49) 5px 0 35px;
+    font-size: 45px;
+    color: white;
   }
 
   .projects-div {
@@ -747,14 +834,6 @@
 
 .title p {
   font-size: 45px
-}
-
-.intro-name {
-  font-size: 88px;
-}
-
-.intro-title {
-  font-size: 65px;
 }
 
 .crawl {

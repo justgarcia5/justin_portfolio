@@ -32,12 +32,12 @@ export default function Surfshop(props) {
               </Modal.Header>
               <Modal.Body>
                 <h5>Date:</h5>
-                <p className="ml-4">June 2016 - Current</p>
+                <p className="ml-4">June 2020 - Current</p>
                 <h5>Description:</h5>
-                <p className="ml-4">This is MYSURFSHOPSTORE which is built on Bitnami Wordpress and uses WooComerce. At the moment this project is still a work in progress.</p>
+                <p className="ml-4">This is MYSURFSHOPSTORE which is built using Worpress. I implemented the Woo-commerce plugin as well as a custom theme.</p>
                 <h5>My Contributions:</h5>
                 <ul>
-                  <li>Created AwS EC2 Instance with Wordpress Bitnami</li>
+                  <li>Created AWS EC2 Instance with Wordpress Bitnami</li>
                   <li>Added WooCommerce plugin and connected stripe account for payments</li>
                   <li>Implemented custom UI Theme</li>
                 </ul>

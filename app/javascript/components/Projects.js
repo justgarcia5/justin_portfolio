@@ -9,6 +9,7 @@ import TechTalk from '../components/projects/tech_talk'
 import Overtime from '../components/projects/overtime'
 import Tictactoe from '../components/projects/tictactoe'
 import Surfshop from '../components/projects/surfshop'
+import Meditation from '../components/projects/meditation'
 
 export default function Projects() {
   return (
@@ -19,8 +20,9 @@ export default function Projects() {
           <hr className="col-sm-4"/>
         </Fade>
         <div className="d-flex justify-content-center mt-5">
-          <Fade left >
+          <Fade up >
             <div className="row justify-content-center">
+              <Meditation styles={styles} class="project-cards" />
               <Surfshop styles={styles} class="project-cards"/>
               <TradeUp styles={styles} class="project-cards"/>
               <Overtime styles={styles} class="project-cards" />
