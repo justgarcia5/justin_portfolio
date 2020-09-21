@@ -492,13 +492,12 @@
     left:0;
     bottom:0;
     z-index:1;
-    background: linear-gradient(to right,rgba(64, 0, 255, 0.281),rgba(255, 0, 234, 0.11));
   }
 
   #intro {
     left: 0%;
     top: -195px;
-    height: 138vh;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: absolute;
@@ -508,7 +507,9 @@
 
   .video {
     // position: relative;
-    height: 138vh;
+    margin-top: 30px;
+    width: 220%;
+    // height: 700px;
   }
 
   .about {

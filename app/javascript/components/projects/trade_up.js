@@ -18,7 +18,7 @@ const TradeUp = props => {
             <Button className="btn btn-success mx-2 mt-5" onClick={handleShow}>
               Learn More
             </Button>
-            <Button className="btn btn-info mx-2 mt-5" href="https://alltraderup.com/" target="_blank">
+            <Button className="btn btn-info mx-2 mt-5" href="https://all-trade-up.herokuapp.com/" target="_blank">
               Live Demo
             </Button>
             <Button className="btn btn-danger mx-2 mt-5" style={props.styles.githubButton} href="https://github.com/justgarcia5/trade-up" target="_blank">
@@ -55,6 +55,9 @@ const TradeUp = props => {
               <Modal.Footer>
                 <Button className="btn btn-danger mx-2" style={props.styles.githubButton} href="https://github.com/CodingZeal/initiative-tracker" target="_blank">
                   Code <i className="gh fa fa-github fa-lg"></i>
+                </Button>
+                <Button className="btn btn-info mx-2" href="https://all-trade-up.herokuapp.com/" target="_blank">
+                  Live Demo
                 </Button>
                 <Button variant="secondary" onClick={handleClose}>
                   Close [X]
