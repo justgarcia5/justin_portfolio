@@ -71,7 +71,7 @@
     left:0;
     bottom:0;
     z-index: 2;
-    background:linear-gradient(to right,rgba(64, 0, 255, 0.363),rgba(255, 0, 234, 0.178));
+    // background:linear-gradient(to right,rgba(18, 18, 19, 0.363),rgba(53, 52, 53, 0.178));
   }
 
   .video {
@@ -112,7 +112,7 @@
     text-align: center;
     z-index: 3;
     position: relative;
-    top: 600px;
+    top: 60vh;
     font-size: 125px;
     text-shadow: rgb(49, 49, 49) 5px 0 35px;
     font-weight: bolder;
@@ -123,7 +123,7 @@
     text-align: center;
     z-index: 3;
     position: relative;
-    top: 600px;
+    top: 60vh;
     font-size: 85px;
     text-shadow: rgb(49, 49, 49) 5px 0 35px;
     font-weight: bolder;
@@ -514,7 +514,7 @@
   .about {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 800px;
+    margin-top: 500px;
     padding-top: 120px;
     padding-bottom: 165px;
   }
@@ -523,7 +523,7 @@
     text-align: center;
     z-index: 3;
     position: relative;
-    top: 600px;
+    top: 50vh;
     text-shadow: rgb(49, 49, 49) 5px 0 35px;
     font-size: 55px;
     color: white;
@@ -533,7 +533,7 @@
     text-align: center;
     z-index: 3;
     position: relative;
-    top: 600px;
+    top: 50vh;
     text-shadow: rgb(49, 49, 49) 5px 0 35px;
     font-size: 45px;
     color: white;
