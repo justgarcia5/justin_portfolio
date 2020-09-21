@@ -51,7 +51,6 @@ export default function Meditation(props) {
                 </Button>
               </Modal.Footer>
             </Modal>
-
           </div>
         </div>
         <div className="card-body">
