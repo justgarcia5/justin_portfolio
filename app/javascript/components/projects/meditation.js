@@ -55,7 +55,7 @@ export default function Meditation(props) {
           </div>
         </div>
         <div className="card-body">
-          <h5 className="card-title mt-4">Meditation Appp</h5>
+          <h5 className="card-title mt-4">Meditation App</h5>
         </div>
       </div>
     </div>

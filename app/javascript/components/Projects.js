@@ -23,7 +23,7 @@ export default function Projects() {
         <div className="d-flex justify-content-center mt-5">
           <Fade up >
             <div className="row justify-content-center">
-              <Exercise styles={styles} class="project-cards" />
+              {/* <Exercise styles={styles} class="project-cards" /> */}
               <Meditation styles={styles} class="project-cards" />
               <Surfshop styles={styles} class="project-cards"/>
               <TradeUp styles={styles} class="project-cards"/>
