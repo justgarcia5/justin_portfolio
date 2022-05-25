@@ -25,7 +25,7 @@ export default function Projects() {
             <div className="row justify-content-center">
               {/* <Exercise styles={styles} class="project-cards" /> */}
               <Meditation styles={styles} class="project-cards" />
-              <Surfshop styles={styles} class="project-cards"/>
+              {/* <Surfshop styles={styles} class="project-cards"/> */}
               <TradeUp styles={styles} class="project-cards"/>
               <Overtime styles={styles} class="project-cards" />
               <RecipeApp styles={styles} class="project-cards" />
