@@ -24,6 +24,7 @@ export default function Projects() {
           <Fade up >
             <div className="row justify-content-center">
               {/* <Exercise styles={styles} class="project-cards" /> */}
+
               <Meditation styles={styles} class="project-cards" />
               {/* <Surfshop styles={styles} class="project-cards"/> */}
               <TradeUp styles={styles} class="project-cards"/>
