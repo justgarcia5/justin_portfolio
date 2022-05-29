@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
       route_not_found
     end
   end
-  
+
 
   def create
     @contact = Contact.create(contact_params)
